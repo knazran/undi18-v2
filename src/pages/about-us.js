@@ -115,7 +115,10 @@ function AboutPage() {
             </p>
           </div>
         </div>
-        <img className="mx-auto mb-12" alt="aeiou" src={aeiou}></img>
+        <div className="mx-auto w-full lg:w-1/3">
+        <img className="mx-auto mb-12 w-full" alt="aeiou" src={aeiou}></img>
+        </div>
+        
       </section>
 
       <section id="team">

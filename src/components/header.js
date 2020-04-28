@@ -60,7 +60,7 @@ function Header() {
             },
           ].map((link) => (
             <Link
-              className="block mt-4 text-red-800 hover:text-primary-700 no-underline md:inline-block md:mt-0 md:ml-12"
+              className="block mt-4 text-red-800 hover:text-red-900 no-underline md:inline-block md:mt-0 md:ml-12"
               key={link.title}
               to={link.route}
             >
@@ -68,14 +68,14 @@ function Header() {
             </Link>
           ))}
           <AnchorLink
-            className="block mt-4 text-red-800 hover:text-primary-700 no-underline md:inline-block md:mt-0 md:ml-12"
+            className="block mt-4 text-red-800 hover:text-red-900 no-underline md:inline-block md:mt-0 md:ml-12"
             key="events"
             to="/#events"
           >
             Events
           </AnchorLink>
           <AnchorLink
-            className="block mt-4 text-red-800 hover:text-primary-700 no-underline md:inline-block md:mt-0 md:ml-12"
+            className="block mt-4 text-red-800 hover:text-red-900 no-underline md:inline-block md:mt-0 md:ml-12"
             key="media"
             to="/#media"
           >
