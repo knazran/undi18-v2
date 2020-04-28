@@ -41,10 +41,6 @@ const Campaigns = () => {
       data-sal-easing="ease"
     >
       <div className="my-2 lg:my-4 w-full ">
-        <p className="text-md px-4 lg:px-0 lg:text-xl text-center leading-relaxed font-light text-gray-700 mb-6 lg:mb-8">
-          Join us in affecting change. Let’s work to build a better Malaysia!
-        </p>
-
         <div className="lg:flex lg:items-stretch justify-start ">
           {campaignItems.map((item) => (
             <div key={item.key} className="w-full mb-6 lg:mb-0 lg:w-1/3">

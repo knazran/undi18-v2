@@ -45,32 +45,36 @@ function IndexPage() {
           </h3>
         </div>
       </div>
-      
+
       <section id="campaigns" className="mt-4">
+        <p className="text-md px-4 lg:px-0 lg:text-xl text-center leading-relaxed font-light text-gray-700 mb-6 lg:mb-8">
+          Join us in affecting change. Let’s work to build a better Malaysia!
+        </p>
         <Campaigns />
       </section>
 
       <section id="media" className="mt-12 lg:mt-20 ">
-        <MediaMentions/>
+        <MediaMentions />
       </section>
 
       <section id="partners">
-      <div data-sal="slide-up"
-        data-sal-duration="700"
-        data-sal-easing="ease" 
-        className="my-12 lg:flex">
-        <div className="my-6 w-full">
-          <div className="w-20 h-1 bg-red-800 rounded-lg self-start mb-2"></div>
-          <h3 className="text-2xl font-semibold tracking-wider">
-            Our Partners & Clients
-          </h3>
-          <div className="lg:flex lg:flex-col justify-center">
-            <img src={partner} alt="Partners" />
+        <div
+          data-sal="slide-up"
+          data-sal-duration="700"
+          data-sal-easing="ease"
+          className="my-12 lg:flex"
+        >
+          <div className="my-6 w-full">
+            <div className="w-20 h-1 bg-red-800 rounded-lg self-start mb-2"></div>
+            <h3 className="text-2xl font-semibold tracking-wider">
+              Our Partners & Clients
+            </h3>
+            <div className="lg:flex lg:flex-col justify-center">
+              <img src={partner} alt="Partners" />
+            </div>
           </div>
         </div>
-      </div>
-    </section>
-
+      </section>
     </Layout>
   );
 }
