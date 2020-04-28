@@ -1,23 +1,28 @@
 import React from "react";
-// import contactless from "../images/undi18-logo.png";
+import forchange from "../images/CAMPAIGNSFORCHANGE.png";
+import sfd from "../images/SEEDSFORDEMOCRACY.png";
+import genundi from "../images/GENERASIUNDI18.png";
 
 const Programmes = () => {
   const programmes = [
     {
       key: 1,
       header: "EDUCATION",
+      image: sfd,
       title: "Seeds For Democracy",
       subtitle: `Our flagship education program to develop competences of Malaysian youths on active citizenship, voter education and participation in political, economic and social life through experiential learning and simulations.`,
     },
     {
       key: 2,
       header: "ADVOCACY",
+      image: genundi,
       title: "Generasi Undi18",
       subtitle: `Undi18’s voter education initiatives which seeks to develop a generation of educated, critical and engaged young voters.`,
     },
     {
       key: 3,
       header: "AWARENESS",
+      image: forchange,
       title: "YouthEx",
       subtitle: `Youth Exchange or YouthEx is a series of programs to bring policy discussions closer to the youth. We aim to bridge the gap between policymakers and the youth.`,
     },
@@ -51,7 +56,7 @@ const Programmes = () => {
                 </p>
                 <img
                   className="object-scale-down rounded"
-                  src="https://picsum.photos/600/400"
+                  src={program.image}
                 />
                 <h3 className="text-md lg:text-lg mt-4 font-semibold ">
                   {program.title}
