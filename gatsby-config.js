@@ -1,14 +1,14 @@
 const resolveConfig = require("tailwindcss/resolveConfig");
 const tailwindConfig = require("./tailwind.config.js");
-const path = require(`path`)
+const path = require(`path`);
 
 const fullConfig = resolveConfig(tailwindConfig);
 
 module.exports = {
   siteMetadata: {
-    title: `Chime Visitors`,
-    description: `Chime Visitors is a visitor management system SaaS company based in Kuala Lumpur`,
-    author: `Emunio Innovations Sdn. Bhd.`,
+    title: `Undi18`,
+    description: `Promoting a youth-centric agenda and democratic reforms. Undi18 aims to bridge the gap between politicians, policymakers, and youth. We help Malaysians read and understand policies beyond politics.`,
+    author: `Undi18`,
   },
   plugins: [
     `gatsby-plugin-eslint`,
@@ -35,10 +35,10 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-sharp`
+      resolve: `gatsby-plugin-sharp`,
     },
     {
-      resolve: `gatsby-transformer-sharp`
+      resolve: `gatsby-transformer-sharp`,
     },
     {
       resolve: `gatsby-plugin-postcss`,

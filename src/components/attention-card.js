@@ -1,5 +1,5 @@
 import React from "react";
-import contactless from "../images/contactless.png";
+import contactless from "../images/undi18-logo.png";
 
 const AttentionCard = () => {
   return (

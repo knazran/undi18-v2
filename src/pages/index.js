@@ -1,14 +1,15 @@
 import React from "react";
 
 import Hero from "../components/hero";
-import Process from "../components/process";
-import Features1 from "../components/features1";
-import Features2 from "../components/features2";
-import AttentionCard from "../components/attention-card";
-import CTACard from "../components/cta-card";
-import PricingCards from "../components/pricing";
+import MainPitch from "../components/main-pitch";
+import Programmes from "../components/programmes";
+import Campaigns from "../components/campaigns";
+import MediaMentions from "../components/media-mentions";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
+
+import logo from "../images/undi18-logo2.png";
+import partner from "../images/partners.jpeg";
 
 function IndexPage() {
   return (
@@ -19,31 +20,57 @@ function IndexPage() {
       />
 
       <section id="hero" className="">
-        <Hero/>
+        <Hero />
       </section>
 
-      <section id="process" className="mt-16 lg:mt-32 ">
-        <Process/>
+      <section id="main pitch" className="mt-12">
+        <MainPitch />
       </section>
 
-      <section id="features" className="pt-6 lg:pt-12 mt-6 lg:mt-12">
-        <Features1/>
+      <section id="programmes" className="pt-6 lg:pt-12 mt-6 lg:mt-12">
+        <Programmes />
       </section>
-      <section id="features1" className="mt-8 lg:mt-16">
-        <Features2/>
+      <div
+        data-sal="slide-up"
+        data-sal-duration="700"
+        data-sal-easing="ease"
+        className="relative w-full mt-0 lg:mt-12 py-6 bg-black flex flex-col justify-center"
+      >
+        <div className="w-32 lg:w-56 self-center mr-3">
+          <img src={logo} alt="Undi18" />
+        </div>
+        <div>
+          <h3 className="text-xl lg:text-3xl text-center text-white font-semibold tracking-wider">
+            Campaigns for Change
+          </h3>
+        </div>
+      </div>
+      
+      <section id="campaigns" className="mt-4">
+        <Campaigns />
       </section>
 
-      <section id="pricing" className="pt-6 lg:pt-12 mt-6 lg:mt-12">
-        <PricingCards/>
+      <section id="media" className="mt-12 lg:mt-20 ">
+        <MediaMentions/>
       </section>
 
-      <section id="attention-card" className="mt-12 lg:mt-20 ">
-        <AttentionCard/>
-      </section>
+      <section id="partners">
+      <div data-sal="slide-up"
+        data-sal-duration="700"
+        data-sal-easing="ease" 
+        className="my-12 lg:flex">
+        <div className="my-6 w-full">
+          <div className="w-20 h-1 bg-red-800 rounded-lg self-start mb-2"></div>
+          <h3 className="text-2xl font-semibold tracking-wider">
+            Our Partners & Clients
+          </h3>
+          <div className="lg:flex lg:flex-col justify-center">
+            <img src={partner} alt="Partners" />
+          </div>
+        </div>
+      </div>
+    </section>
 
-      <section id="cta" className="mt-12 lg:mt-24 mb-16 lg:mb-8">
-        <CTACard/>
-      </section>
     </Layout>
   );
 }
