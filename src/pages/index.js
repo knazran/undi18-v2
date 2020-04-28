@@ -23,7 +23,7 @@ function IndexPage() {
         <Hero />
       </section>
 
-      <section id="main pitch" className="mt-12">
+      <section id="main pitch" className="mt-8 lg:mt-12">
         <MainPitch />
       </section>
 
@@ -31,9 +31,6 @@ function IndexPage() {
         <Programmes />
       </section>
       <div
-        data-sal="slide-up"
-        data-sal-duration="700"
-        data-sal-easing="ease"
         className="relative w-full mt-0 lg:mt-12 py-6 bg-black flex flex-col justify-center"
       >
         <div className="w-32 lg:w-56 self-center mr-3">

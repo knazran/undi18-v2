@@ -5,9 +5,6 @@ const MainPitch = () => {
   return (
     <div
       className="lg:flex"
-      data-sal="slide-up"
-      data-sal-duration="700"
-      data-sal-easing="ease"
     >
       <div className="lg:w-1/2">
         <h3 className="text-2xl lg:text-4xl font-semibold tracking-wider py-2">
@@ -19,7 +16,7 @@ const MainPitch = () => {
           help Malaysians read and understand policies beyond politics.
         </p>
         <Link
-          class="font-bold underline text-sm lg:text-md text-red-700 hover:text-red-800"
+          className="font-bold underline text-sm lg:text-md text-red-700 hover:text-red-800"
           to="/about-us"
         >
           Read Our Story

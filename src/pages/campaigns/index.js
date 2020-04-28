@@ -78,9 +78,9 @@ const CampaignsPage = () => {
             data-sal="slide-up"
             data-sal-duration="700"
             data-sal-easing="ease"
-            className="w-3/5 mx-auto mb-8"
+            className="w-full lg:w-3/5 mx-auto mb-8"
           >
-            <img className="m-0  rounded-lg object-center " src={advocacy} />
+            <img className="rounded-lg object-center " src={advocacy} />
           </div>
           <p className="text-md mb-16 leading-relaxed font-light">
             Through our latest digital campaigning projects and advocacy

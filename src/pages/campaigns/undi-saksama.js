@@ -52,18 +52,18 @@ const UndiSaksamaPage = () => {
             ))}
           </div>
           <div
-            className="my-0 lg:my-6 w-1/2 flex-grow-0"
+            className="my-6 w-full lg:w-1/2 flex-grow-0"
             data-sal="slide-left"
             data-sal-duration="700"
             data-sal-easing="ease"
           >
             <img
-              className="m-0 ml-6  lg:mr-4 rounded-lg object-center lg:object-fill h-0 lg:h-full"
+              className="mx-auto rounded-lg object-center lg:object-right w-full lg:w-2/3"
               src={saksama}
             />
           </div>
         </div>
-        <div className="w-full lg:mb-16">
+        <div className="w-full mt-8 mb-16">
           <div
             className="w-20 h-1 rounded-lg self-start"
             style={{ backgroundColor: campaignInfo.campaignColor }}

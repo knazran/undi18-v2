@@ -13,7 +13,7 @@ const Campaigns = () => {
       subtitle: `A youth campaign to advocate for equal democratic representation for every Malaysian voter. Based on the principle of “Satu Rakyat, Satu Undi, Satu Nilai”, 
       we aim to address gerrymandering, malapportionment and alternative voting systems and bring these conversations to the average citizen.`,
       image: saksama,
-      url: '/campaigns/undi-saksama'
+      url: "/campaigns/undi-saksama",
     },
     {
       key: 2,
@@ -21,7 +21,7 @@ const Campaigns = () => {
       subtitle: `A youth campaign to build towards 50% women’s representation in Parliament and politics. 
       We aim to build a new narrative of women in politics and get more women in positions of power.`,
       image: initiative,
-      url: '/campaigns/undi-saksama'
+      url: "/campaigns/undi-saksama",
     },
     {
       key: 3,
@@ -29,21 +29,19 @@ const Campaigns = () => {
       subtitle: `A youth campaign to institutionalize financing for forest conservation in the Federal Constitution. 
       We aim to build a coalition of young Malaysians that are passionate about forest conservation and climate change.`,
       image: myhutan,
-      url: '/campaigns/undi-saksama'
+      url: "/campaigns/undi-saksama",
     },
   ];
 
   return (
-    <div
-      className="lg:flex lg:flex-wrap"
-      data-sal="fade"
-      data-sal-duration="700"
-      data-sal-easing="ease"
-    >
+    <div className="lg:flex lg:flex-wrap">
       <div className="my-2 lg:my-4 w-full ">
         <div className="lg:flex lg:items-stretch justify-start ">
           {campaignItems.map((item) => (
-            <div key={item.key} className="w-full mb-6 lg:mb-0 lg:w-1/3">
+            <div
+              key={item.key}
+              className="w-full mb-6 lg:mb-0 lg:w-1/3"
+            >
               <div
                 className="flex justify-between flex-wrap mx-4 lg:mx-6 border rounded-lg shadow-md"
                 style={{ height: "100%" }}
@@ -61,13 +59,13 @@ const Campaigns = () => {
                 </div>
 
                 {/* <div className="self-end flex justify-center w-2/3 mx-auto px-4 py-2 my-4 bg-red-800 hover:bg-red-900 rounded-md"> */}
-                  <Link
-                    className="self-end flex justify-center w-2/3 mx-auto px-4 py-2 my-4 bg-red-800 hover:bg-red-900 rounded-md text-center font-semibold text-sm lg:text-md text-white"
-                    to={item.url}
-                  >
-                    Check us out!
-                  </Link>
-                  {/* <a
+                <Link
+                  className="self-end flex justify-center w-2/3 mx-auto px-4 py-2 my-4 bg-red-800 hover:bg-red-900 rounded-md text-center font-semibold text-sm lg:text-md text-white"
+                  to={item.url}
+                >
+                  Check us out!
+                </Link>
+                {/* <a
                     className="text-center font-semibold text-sm lg:text-md text-white"
                     href="#"
                   >

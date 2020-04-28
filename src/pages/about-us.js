@@ -75,7 +75,7 @@ function AboutPage() {
               politics.
             </p>
           </div>
-          <div className="my-0 lg:my-6 w-1/2 flex-grow-0">
+          <div className="my-0 lg:my-6 w-0 lg:w-1/2 flex-grow-0">
             <img
               className="m-0 ml-6  lg:mr-4 rounded-lg object-center lg:object-fill h-0 lg:h-full"
               src="https://picsum.photos/800/300"
@@ -85,7 +85,7 @@ function AboutPage() {
       </section>
 
       <section id="our_story">
-        <div data-sal="slide-up" data-sal-duration="700" data-sal-easing="ease">
+        <div>
           <div className="lg:flex">
             <div className="my-4 mt-2 w-full">
               <div className="w-20 h-1 bg-red-800 rounded-lg self-start mb-2"></div>
@@ -123,7 +123,7 @@ function AboutPage() {
         <h3 className="text-2xl font-semibold tracking-wider mb-2">The Team</h3>
         <div className="lg:flex lg:justify-center mt-8 lg:mb-24">
           {team_members.map((team) => (
-            <div key={team.key} className="w-full lg:w-1/3 lg:items-stretch">
+            <div key={team.key} className="mx-auto w-4/5 lg:mx-0 lg:w-1/3 lg:items-stretch">
               <div className="border rounded shadow-md mb-4 lg:mb-0 lg:mx-6" style={{ "height": "100%" }}>
                 <div className="flex flex-col">
                   <div className="">
