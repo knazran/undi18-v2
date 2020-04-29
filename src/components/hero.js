@@ -1,5 +1,5 @@
 import React from "react";
-import hero from "../images/111initiative.jpeg";
+import hero from "../images/heroimg.png";
 // import { Image, Link } from "gatsby";
 
 const Hero = () => {
@@ -11,7 +11,7 @@ const Hero = () => {
       data-sal-delay="100"
       data-sal-easing="ease"
     >
-      <div className="lg:w-3/5">
+      <div className="lg:w-3/5 lg:pr-8">
         <div className="flex flex-col xl:mt-12">
           {/* Hero Title */}
           <h1 className="text-red-800 font-bold text-4xl tracking-widest ">

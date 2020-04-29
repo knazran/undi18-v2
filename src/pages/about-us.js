@@ -3,8 +3,9 @@ import React from "react";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 import journey from "../images/journey.png";
-import tharma from "../images/tharma.jpg";
-import qyira from "../images/qyira.jpg";
+import journey2 from "../images/journey-2.png";
+import tharma from "../images/tharma.png";
+import qyira from "../images/qyira.png";
 import aeiou from "../images/AEIOYouth.png";
 import mainpitchimg from "../images/mainpitchimg.jpg";
 
@@ -41,13 +42,13 @@ function AboutPage() {
     {
       key: 1,
       name: "Tharma Pillai",
-      title: "Co-Founder & Advocacy/Strategy Director",
+      title: "Advocacy Director",
       image: tharma,
     },
     {
       key: 2,
       name: "Qyira Yusri",
-      title: "Co-Founder & Education/Programme Director",
+      title: "Education Director",
       image: qyira,
     },
   ];
@@ -100,7 +101,11 @@ function AboutPage() {
               ))}
             </div>
           </div>
-          <img className="mx-auto mb-12" alt="journey" src={journey}></img>
+          <div className="lg:flex lg:justify-center mb-12 ">
+          <img className="mx-auto lg:mx-2 w-4/5 lg:w-1/3" alt="journey" src={journey}></img>
+          <img className="mx-auto lg:mx-2  w-4/5 lg:w-1/3" alt="journey" src={journey2}></img>
+          </div>
+          
         </div>
       </section>
 
