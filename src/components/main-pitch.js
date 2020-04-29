@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "gatsby";
+import mainpitchimg from "../images/mainpitchimg.jpg";
 
 const MainPitch = () => {
   return (
@@ -32,8 +33,8 @@ const MainPitch = () => {
       </div>
       <div className="lg:w-1/2 pl-4">
         <img
-          className="m-0 ml-6  lg:mx-4 rounded-lg object-center lg:object-fill h-0 lg:h-full"
-          src="https://picsum.photos/800/300"
+          className="m-0 rounded-lg object-center w-0 lg:w-full"
+          src={mainpitchimg}
         />
       </div>
     </div>

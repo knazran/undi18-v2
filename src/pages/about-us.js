@@ -5,7 +5,7 @@ import SEO from "../components/seo";
 import journey from "../images/journey.png";
 import tharma from "../images/tharma.jpg";
 import qyira from "../images/qyira.jpg";
-import aeiou from "../images/aeiou.png";
+import aeiou from "../images/AEIOYouth.png";
 
 function AboutPage() {
   const story = [
@@ -111,11 +111,11 @@ function AboutPage() {
               Our Pillars: AEIO Youth
             </h3>
             <p className="text-md mt-2 mb-3 lg:mb-6 leading-relaxed font-light">
-              Youth-Centric Advocacy, Education, Interconnection and Outreach
+              Youth-Centric Advocacy, Education, Innovation and Outreach
             </p>
           </div>
         </div>
-        <div className="mx-auto w-full lg:w-1/3">
+        <div className="mx-auto w-full lg:w-1/4">
         <img className="mx-auto mb-12 w-full" alt="aeiou" src={aeiou}></img>
         </div>
         
