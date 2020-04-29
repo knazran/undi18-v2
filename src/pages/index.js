@@ -27,7 +27,7 @@ function IndexPage() {
         <MainPitch />
       </section>
 
-      <section id="programmes" className="pt-6 lg:pt-12 mt-6 lg:mt-12">
+      <section id="programmes" className="pt-6 lg:pt-12 mt-8 ">
         <Programmes />
       </section>
       <div

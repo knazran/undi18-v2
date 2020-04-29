@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "gatsby";
-import mainpitchimg from "../images/mainpitchimg.jpg";
+import mainpitchimg from "../images/hero.jpg";
 
 const MainPitch = () => {
   return (

@@ -1,5 +1,5 @@
 import React from "react";
-import hero from "../images/hero.jpg";
+import hero from "../images/111initiative.jpeg";
 // import { Image, Link } from "gatsby";
 
 const Hero = () => {
@@ -11,7 +11,7 @@ const Hero = () => {
       data-sal-delay="100"
       data-sal-easing="ease"
     >
-      <div className="lg:w-1/2">
+      <div className="lg:w-3/5">
         <div className="flex flex-col xl:mt-12">
           {/* Hero Title */}
           <h1 className="text-red-800 font-bold text-4xl tracking-widest ">
@@ -55,7 +55,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className="mt-8 lg:w-1/2">
+      <div className="mt-8 lg:w-2/5">
         <img className="rounded-md" alt="Hero Image" src={hero}></img>
       </div>
     </div>

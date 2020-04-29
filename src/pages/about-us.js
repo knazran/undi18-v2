@@ -6,6 +6,7 @@ import journey from "../images/journey.png";
 import tharma from "../images/tharma.jpg";
 import qyira from "../images/qyira.jpg";
 import aeiou from "../images/AEIOYouth.png";
+import mainpitchimg from "../images/mainpitchimg.jpg";
 
 function AboutPage() {
   const story = [
@@ -60,7 +61,7 @@ function AboutPage() {
 
       <section className="">
         <div
-          className="flex"
+          className="lg:flex mb-4"
           data-sal="slide-up"
           data-sal-duration="700"
           data-sal-easing="ease"
@@ -75,10 +76,10 @@ function AboutPage() {
               politics.
             </p>
           </div>
-          <div className="my-0 lg:my-6 w-0 lg:w-1/2 flex-grow-0">
+          <div className="my-0 lg:my-6 w-full lg:w-1/2 flex-grow-0">
             <img
-              className="m-0 ml-6  lg:mr-4 rounded-lg object-center lg:object-fill h-0 lg:h-full"
-              src="https://picsum.photos/800/300"
+              className="m-0 rounded-lg object-center lg:object-fill w-full"
+              src={mainpitchimg}
             />
           </div>
         </div>
@@ -115,7 +116,7 @@ function AboutPage() {
             </p>
           </div>
         </div>
-        <div className="mx-auto w-full lg:w-1/4">
+        <div className="mx-auto w-4/5 md:1/3 lg:w-1/4">
         <img className="mx-auto mb-12 w-full" alt="aeiou" src={aeiou}></img>
         </div>
         
