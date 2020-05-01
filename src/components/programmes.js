@@ -10,6 +10,7 @@ const Programmes = () => {
       header: "EDUCATION",
       image: sfd,
       title: "Seeds For Democracy",
+      url: "/programmes/seeds-for-democracy",
       subtitle: `Our flagship education program to develop competences of Malaysian youths on active citizenship, voter education and participation in political, economic and social life through experiential learning and simulations.`,
     },
     {
@@ -17,6 +18,7 @@ const Programmes = () => {
       header: "AWARENESS",
       image: genundi,
       title: "Generasi Undi18",
+      url: null,
       subtitle: `Undi18’s voter education initiatives which seeks to develop a generation of educated, critical and engaged young voters.`,
     },
     {
@@ -24,6 +26,7 @@ const Programmes = () => {
       header: "ADVOCACY",
       image: forchange,
       title: "Campaigns for Change",
+      url: null,
       subtitle: `Campaigns for Change is a series of...`,
     },
   ];
@@ -64,12 +67,16 @@ const Programmes = () => {
                 <p className="text-sm lg:text-md mt-1 lg:mt-2 leading-relaxed font-light text-gray-600 mb-4 lg:mb-8">
                   {program.subtitle}
                 </p>
-                <a
-                  className="align-right font-bold text-sm text-red-800 hover:text-red-900"
-                  href="#"
-                >
-                  Learn More →
-                </a>
+                {program.url ? (
+                  <a
+                    className="align-right font-bold text-sm text-red-800 hover:text-red-900"
+                    href={program.url}
+                  >
+                    Learn More →
+                  </a>
+                ) : (
+                  <a></a>
+                )}
               </div>
             </div>
           ))}

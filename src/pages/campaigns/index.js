@@ -92,7 +92,7 @@ const CampaignsPage = () => {
             <img className="rounded-lg object-center " src={advocacy} />
           </div>
           <div
-            className="w-full px-4 md:w-0 mb-8"
+            className="w-full px-4 block md:hidden mb-8"
           >
             <ol className="list-decimal">
               {advocacyItems.map((item) => (
