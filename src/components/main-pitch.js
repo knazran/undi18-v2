@@ -7,7 +7,7 @@ const MainPitch = () => {
     <div
       className="lg:flex"
     >
-      <div className="lg:w-1/2">
+      <div className="md:w-4/5 lg:w-1/2">
         <h3 className="text-2xl lg:text-4xl font-semibold tracking-wider py-2">
           Build the movement of champions for democracy. Starting from youths.
         </h3>

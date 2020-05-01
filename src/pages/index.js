@@ -6,10 +6,11 @@ import Programmes from "../components/programmes";
 import Campaigns from "../components/campaigns";
 import MediaMentions from "../components/media-mentions";
 import Layout from "../components/layout";
+import Partners from "../components/partners";
 import SEO from "../components/seo";
 
 import logo from "../images/undi18-logo2.png";
-import partner from "../images/partners.jpeg";
+// import partner from "../images/partners.jpeg";
 
 function IndexPage() {
   return (
@@ -43,7 +44,7 @@ function IndexPage() {
         </div>
       </div>
 
-      <section id="campaigns" className="mt-4">
+      <section id="campaigns" className="mt-8">
         <p className="text-md px-4 lg:px-0 lg:text-xl text-center leading-relaxed font-light text-gray-700 mb-6 lg:mb-8">
           Join us in affecting change. Let’s work to build a better Malaysia!
         </p>
@@ -61,7 +62,8 @@ function IndexPage() {
           data-sal-easing="ease"
           className="my-12 lg:flex"
         >
-          <div className="my-6 w-full">
+          <Partners/>
+          {/* <div className="my-6 w-full">
             <div className="w-20 h-1 bg-red-800 rounded-lg self-start mb-2"></div>
             <h3 className="text-2xl font-semibold tracking-wider">
               Our Partners & Clients
@@ -69,7 +71,7 @@ function IndexPage() {
             <div className="lg:flex lg:flex-col justify-center">
               <img src={partner} alt="Partners" />
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
     </Layout>

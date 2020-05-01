@@ -14,17 +14,17 @@ const Programmes = () => {
     },
     {
       key: 2,
-      header: "ADVOCACY",
+      header: "AWARENESS",
       image: genundi,
       title: "Generasi Undi18",
       subtitle: `Undi18’s voter education initiatives which seeks to develop a generation of educated, critical and engaged young voters.`,
     },
     {
       key: 3,
-      header: "AWARENESS",
+      header: "ADVOCACY",
       image: forchange,
-      title: "YouthEx",
-      subtitle: `Youth Exchange or YouthEx is a series of programs to bring policy discussions closer to the youth. We aim to bridge the gap between policymakers and the youth.`,
+      title: "Campaigns for Change",
+      subtitle: `Campaigns for Change is a series of...`,
     },
   ];
 
@@ -40,7 +40,7 @@ const Programmes = () => {
             Through the pillars of Education, Advocacy, and Awareness
           </p>
         </div>
-        <div className="lg:flex justify-start ">
+        <div className="md:flex md:flex-wrap justify-start ">
           {programmes.map((program) => (
             // What we do card
             <div
@@ -48,11 +48,11 @@ const Programmes = () => {
               data-sal-duration="700"
               data-sal-easing="ease"
               key={program.key}
-              className="mb-10 lg:mb-0 w-full lg:w-1/3"
+              className="mb-10 lg:mb-0 w-full md:w-1/2 lg:w-1/3"
             >
-              <div className="lg:mr-10">
+              <div className="md:mr-8 lg:mr-10">
                 <p className="text-red-800 text-sm lg:text-md mb-2 lg:mb-4 font-semibold tracking-wide">
-                  {program.heading}
+                  {program.header}
                 </p>
                 <img
                   className="object-scale-down rounded"

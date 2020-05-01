@@ -43,10 +43,10 @@ const MediaMentions = () => {
     <div className="my-6 w-full">
       <div className="w-20 h-1 bg-red-800 rounded-lg self-start mb-2"></div>
       <h3 className="text-2xl font-semibold tracking-wider">Media Mentions</h3>
-      <div className="lg:flex lg:flex-wrap items-stretch mt-2">
+      <div className="md:flex md:flex-wrap items-stretch mt-2">
         {media_mentions.map((media) => (
           // Media Mention Card
-          <div key={media.key} className="w-full lg:w-1/2 px-2 my-4">
+          <div key={media.key} className="w-full md:w-1/2 px-2 my-4">
             <div
               className="w-full lg:flex flex-col justify-between border rounded shadow-md mr-6"
               style={{ height: "100%" }}

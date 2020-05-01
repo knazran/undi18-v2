@@ -6,6 +6,28 @@ import SEO from "../../components/seo";
 import advocacy from "../../images/campaign-advocacy.png";
 
 const CampaignsPage = () => {
+  const advocacyItems = [
+    {
+      key:1,
+      title: "Kickstart",
+      subtitle: "Assembling a winning coalition"
+    },
+    {
+      key:2,
+      title: "Communication",
+      subtitle: "Building social media momentum"
+    },
+    {
+      key:3,
+      title: "Engagement",
+      subtitle: "Engaging rakyat to win over public opinion"
+    },
+    {
+      key:4,
+      title: "Lobbying",
+      subtitle: "Playing the game of leverage"
+    },
+  ]
   return (
     <Layout>
       <SEO
@@ -15,14 +37,12 @@ const CampaignsPage = () => {
       <section>
         <div className="w-full lg:flex">
           <div
-            className="lg:my-6 w-full lg:w-1/2"
+            className="md:my-6 w-full lg:w-1/2"
             data-sal="slide-right"
             data-sal-duration="700"
             data-sal-easing="ease"
           >
-            <div
-              className="w-20 h-1 rounded-lg self-start bg-red-800"
-            ></div>
+            <div className="w-20 h-1 rounded-lg self-start bg-red-800"></div>
             <h3 className="text-3xl lg:text-4xl font-semibold tracking-wider py-2 text-black">
               Drive Change. Work to build a better Malaysia.
             </h3>
@@ -30,17 +50,6 @@ const CampaignsPage = () => {
               Join us in our causes.
             </p>
           </div>
-          {/* <div
-            className="my-0 lg:my-6 w-1/2 flex-grow-0"
-            data-sal="slide-left"
-            data-sal-duration="700"
-            data-sal-easing="ease"
-          >
-            <img
-              className="m-0 ml-6  lg:mr-4 rounded-lg object-center lg:object-fill h-0 lg:h-full"
-              src={saksama}
-            />
-          </div> */}
         </div>
         <div
           className="w-full lg:mb-16"
@@ -78,9 +87,23 @@ const CampaignsPage = () => {
             data-sal="slide-up"
             data-sal-duration="700"
             data-sal-easing="ease"
-            className="w-full lg:w-3/5 mx-auto mb-8"
+            className="w-0 md:w-full lg:w-3/5 mx-auto mb-8"
           >
             <img className="rounded-lg object-center " src={advocacy} />
+          </div>
+          <div
+            className="w-full px-4 md:w-0 mb-8"
+          >
+            <ol className="list-decimal">
+              {advocacyItems.map((item) => (
+                <li
+                  key={item.key}
+                  className="text-md mb-2 leading-relaxed font-light"
+                >
+                  <strong>{item.title}</strong> : {item.subtitle}
+                </li>
+              ))}
+            </ol>
           </div>
           <p className="text-md mb-16 leading-relaxed font-light">
             Through our latest digital campaigning projects and advocacy

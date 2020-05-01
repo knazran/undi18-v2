@@ -11,7 +11,7 @@ const Hero = () => {
       data-sal-delay="100"
       data-sal-easing="ease"
     >
-      <div className="lg:w-3/5 lg:pr-8">
+      <div className="md:mt-8 lg:w-3/5 lg:pr-8">
         <div className="flex flex-col xl:mt-12">
           {/* Hero Title */}
           <h1 className="text-red-800 font-bold text-4xl tracking-widest ">
@@ -28,7 +28,7 @@ const Hero = () => {
 
           {/* CTA */}
           <div className="lg:flex mt-4 lg:mt-12">
-            <div className="w-full lg:w-1/2 ">
+            <div className="w-full mx-auto md:w-3/5 lg:w-1/2 ">
               <button
                 type="button"
                 className="w-full text-white text-center py-2 px-4 rounded bg-red-800 hover:bg-red-900"
@@ -36,7 +36,7 @@ const Hero = () => {
                 Join Generasi Undi18
               </button>
             </div>
-            <div className="lg:px-4 w-full mt-4 lg:mt-0 lg:w-1/2 ">
+            <div className="lg:px-4 mx-auto w-full mt-4 lg:mt-0 md:w-3/5 lg:w-1/2 ">
               <button
                 type="button"
                 className="w-full text-white text-center py-2 px-4 rounded bg-red-800 hover:bg-red-900"
@@ -55,7 +55,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className="mt-8 lg:w-2/5">
+      <div className="mt-8 mx-auto md:w-4/5 lg:w-2/5">
         <img className="rounded-md" alt="Hero Image" src={hero}></img>
       </div>
     </div>
