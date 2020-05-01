@@ -16,7 +16,7 @@ function IndexPage() {
   return (
     <Layout>
       <SEO
-        keywords={[`chime`, `visitor management system`, `visitor`, `malaysia`]}
+        keywords={[`undi 18`, `voter education`, `youth`, `pemuda negara`, `digital campaign`, `youth empowerment`, `electoral reform`, `CSO`, `political education`]}
         title="Home"
       />
 

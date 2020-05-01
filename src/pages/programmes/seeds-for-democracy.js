@@ -124,7 +124,7 @@ const SFDPage = () => {
         How do you find a win-win solution? How do you overcome different, conflicting identities?`,
         details: [
           `Through this activity, participants learned conflict management, bargaining, and most importantly - 
-          learning to empathize with people who are from a different background than you are.`
+          learning to empathize with people who are from a different background than you are.`,
         ],
         url: `https://docs.google.com/presentation/d/1xy1cmKT_ybasSh9K43xAZW2yhffI5d2Xd1hSCA4bMkA/edit?usp=sharing`,
         image1: workshop6_1,
@@ -146,7 +146,20 @@ const SFDPage = () => {
   return (
     <Layout>
       <SEO
-        keywords={[`undi 18`, `malaysia`, `youth`, `seeds for democracy`]}
+        keywords={[
+          `undi 18`,
+          `malaysia`,
+          `youth`,
+          `seeds for democracy`,
+          `voter education`,
+          `youth`,
+          `pemuda negara`,
+          `digital campaign`,
+          `youth empowerment`,
+          `electoral reform`,
+          `CSO`,
+          `political education`,
+        ]}
         title="Seeds For Democracy"
       />
       <section id="intro">
@@ -252,11 +265,16 @@ const SFDPage = () => {
                       <p className="text-sm lg:text-md mt-2 leading-relaxed font-light text-gray-700 px-4 mb-4">
                         {programmeInfo.workshop[workShopID].subtitle}
                       </p>
-                      {programmeInfo.workshop[workShopID].details.map((deets,idx)=>(
-                        <p key={idx} className="text-sm lg:text-md mt-2 leading-relaxed font-light text-gray-700 px-4 mb-4">
-                        {deets}
-                      </p>
-                      ))}
+                      {programmeInfo.workshop[workShopID].details.map(
+                        (deets, idx) => (
+                          <p
+                            key={idx}
+                            className="text-sm lg:text-md mt-2 leading-relaxed font-light text-gray-700 px-4 mb-4"
+                          >
+                            {deets}
+                          </p>
+                        )
+                      )}
 
                       {/* url */}
                       {programmeInfo.workshop[workShopID].url ? (
@@ -269,18 +287,24 @@ const SFDPage = () => {
                           Check out module materials →
                         </a>
                       ) : (
-                        <p className="text-sm lg:text-md mt-2 leading-relaxed font-light text-gray-700 px-4 mb-4">
-                          
-                        </p>
+                        <p className="text-sm lg:text-md mt-2 leading-relaxed font-light text-gray-700 px-4 mb-4"></p>
                       )}
 
                       {/* Picture */}
                       <div className="w-full lg:flex items-stretch mt-4">
                         <div className="lg:w-1/2 p-4">
-                          <img className="w-full  rounded-md shadow-lg" alt="workshop" src={programmeInfo.workshop[workShopID].image1}></img>
+                          <img
+                            className="w-full  rounded-md shadow-lg"
+                            alt="workshop"
+                            src={programmeInfo.workshop[workShopID].image1}
+                          ></img>
                         </div>
                         <div className="lg:w-1/2 p-4 ">
-                          <img className="w-full rounded-md shadow-lg" alt="workshop" src={programmeInfo.workshop[workShopID].image2}></img>
+                          <img
+                            className="w-full rounded-md shadow-lg"
+                            alt="workshop"
+                            src={programmeInfo.workshop[workShopID].image2}
+                          ></img>
                         </div>
                       </div>
                     </div>

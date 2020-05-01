@@ -7,7 +7,8 @@ const fullConfig = resolveConfig(tailwindConfig);
 module.exports = {
   siteMetadata: {
     title: `Undi18`,
-    description: `Promoting a youth-centric agenda and democratic reforms. Undi18 aims to bridge the gap between politicians, policymakers, and youth. We help Malaysians read and understand policies beyond politics.`,
+    description: `Promoting a youth-centric agenda and democratic reforms. Undi18 aims to bridge the gap between politicians, policymakers, 
+    and youth. We help Malaysians read and understand policies beyond politics.`,
     author: `Undi18`,
   },
   plugins: [

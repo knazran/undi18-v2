@@ -27,7 +27,20 @@ const UndiSaksamaPage = () => {
   return (
     <Layout>
       <SEO
-        keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
+        keywords={[
+          `undi 18`,
+          `malaysia`,
+          `youth`,
+          `seeds for democracy`,
+          `voter education`,
+          `youth`,
+          `pemuda negara`,
+          `digital campaign`,
+          `youth empowerment`,
+          `electoral reform`,
+          `CSO`,
+          `political education`,
+        ]}
         title="Contact"
       />
       <section>
