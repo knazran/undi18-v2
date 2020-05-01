@@ -27,7 +27,8 @@ const Programmes = () => {
       image: forchange,
       title: "Campaigns for Change",
       url: null,
-      subtitle: `Campaigns for Change is a series of...`,
+      subtitle: `A coalition of young Malaysians who are actively working to address problems on a national-scale through youth-centric, 
+      policy-based activism. Issues addressed are gender disparity, democratic reforms and environmentalism.`,
     },
   ];
 

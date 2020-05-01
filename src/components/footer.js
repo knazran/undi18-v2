@@ -1,8 +1,5 @@
 import React from "react";
-import {
-  FaFacebookSquare,
-  FaTwitterSquare,
-} from "react-icons/fa";
+import { FaFacebookSquare, FaTwitterSquare } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -19,10 +16,12 @@ const Footer = () => {
           <div className="flex w-full lg:w-1/2">
             <div className="w-1/2 lg:w-full text-white">
               <h4 className="font-semibold text-md mb-4">Contact Us</h4>
-              <p className="text-sm">undi18@email.com </p>
+              <p className="text-sm">contact@undi18.org </p>
               <p className="text-sm">+6010 659 6061</p>
               <div className="text-sm text-white mt-4">
-              Tower 1, Menara Pgrm, <br></br>Jalan Pudu Ulu, Cheras, <br></br>56100 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur
+                Persatuan Pengundi Muda
+                <br></br>
+                PPM-008-14-27092018.
               </div>
             </div>
           </div>
