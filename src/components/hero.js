@@ -1,5 +1,6 @@
 import React from "react";
 import hero from "../images/heroimg.png";
+import { AnchorLink } from "gatsby-plugin-anchor-links";
 // import { Image, Link } from "gatsby";
 
 const Hero = () => {
@@ -28,22 +29,22 @@ const Hero = () => {
 
           {/* CTA */}
           <div className="lg:flex mt-4 lg:mt-12">
-            <div className="w-full mx-auto md:w-3/5 lg:w-1/2 ">
+            <a className="w-full mx-auto md:w-3/5 lg:w-1/2 " href="#">
               <button
                 type="button"
                 className="w-full text-white text-center py-2 px-4 rounded bg-red-800 hover:bg-red-900"
               >
                 Join Generasi Undi18
               </button>
-            </div>
-            <div className="lg:px-4 mx-auto w-full mt-4 lg:mt-0 md:w-3/5 lg:w-1/2 ">
+            </a>
+            <AnchorLink className="lg:px-4 mx-auto w-full mt-4 lg:mt-0 md:w-3/5 lg:w-1/2 " to="/#programmes">
               <button
                 type="button"
                 className="w-full text-white text-center py-2 px-4 rounded bg-red-800 hover:bg-red-900"
               >
                 See Our Programs
               </button>
-            </div>
+            </AnchorLink>
             {/* <div className="lg:px-6 w-full mt-4 lg:mt-0 lg:w-1/3 ">
               <button
                 type="button"

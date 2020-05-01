@@ -57,7 +57,7 @@ const MediaMentions = () => {
                   src="https://picsum.photos/400/150"
                 />
               </div> */}
-              <div className="px-4 py-3 mb-4">
+              <div className="px-4 py-3">
                 <div>
                   <h4 className="text-sm leading-none tracking-tight font-semibold text-red-800 mb-2">
                     {media.category}
@@ -71,12 +71,12 @@ const MediaMentions = () => {
               </div>
               <div className="self-end mb-4">
                 <a
-                  className="p-4 text-sm font-semibold text-red-800 hover:text-red-900 tracking-tight"
+                  className="p-4 text-sm font-semibold text-red-800 hover:text-red-900 tracking-wider"
                   href={media.url}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  See more
+                  Read more
                 </a>
               </div>
             </div>

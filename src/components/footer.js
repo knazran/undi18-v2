@@ -15,20 +15,15 @@ const Footer = () => {
         ></path>
       </svg> */}
       <footer className="bg-red-800">
-        <nav className="flex flex-wrap justify-between max-w-4xl p-4 mx-auto md:px-8  pt-8 pb-24 bg-red-800">
-          <div className="flex w-full lg:w-1/3">
+        <nav className="flex flex-wrap justify-between max-w-4xl p-4 mx-auto md:px-8  pt-8 pb-16 bg-red-800">
+          <div className="flex w-full lg:w-1/2">
             <div className="w-1/2 lg:w-full text-white">
               <h4 className="font-semibold text-md mb-4">Contact Us</h4>
               <p className="text-sm">undi18@email.com </p>
-              <p className="text-sm">+6012 3456 789</p>
-            </div>
-            <div className="w-1/2 lg:w-full text-white">
-              <h4 className="font-semibold text-red-800 text-md mb-4">
-                Contact Us
-              </h4>
-              <p className="text-sm text-white mt-4">
-                Some address here
-              </p>
+              <p className="text-sm">+6010 659 6061</p>
+              <div className="text-sm text-white mt-4">
+              Tower 1, Menara Pgrm, <br></br>Jalan Pudu Ulu, Cheras, <br></br>56100 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur
+              </div>
             </div>
           </div>
           <div className="lg:flex w-full lg:w-1/2 lg:pl-8">
@@ -49,26 +44,6 @@ const Footer = () => {
                 </span>
               </div>
             </div>
-            {/* <div className="w-full lg:w-1/3">
-              <h4 className="font-semibold text-md mb-2 lg:mb-4 text-white hover:text-gray-500">
-                Blog
-              </h4>
-            </div>
-            <div className="flex flex-col w-full lg:w-1/3">
-              <h4 className="font-semibold text-md mb-2 lg:mb-4 text-white hover:text-gray-500">
-                FAQ
-              </h4>
-              <Link
-                className="font-semibold text-md mb-2 lg:mb-4 text-white hover:text-gray-500"
-                key="privacy"
-                to="/privacy-policy"
-              >
-                Privacy Policy
-              </Link>
-              <h4 className="font-semibold text-md mb-2 lg:mb-4 text-white hover:text-gray-500">
-                Terms of Service
-              </h4>
-            </div> */}
           </div>
         </nav>
       </footer>

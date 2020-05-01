@@ -1,14 +1,13 @@
 /*! purgecss start ignore */
 @tailwind base;
-/* @font-face {
-    font-family: "Nunito";
-    font-style: normal;
-    font-weight: 400;
-    src: url("https://fonts.googleapis.com/css?family=Nunito:300,600,700,800&display=swap"); 
-  } */
+
 @tailwind components;
 
-
 /*! purgecss end ignore */
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,600,700,800&display=swap");
 
 @tailwind utilities;
+
+html {
+  @apply font-body
+}
