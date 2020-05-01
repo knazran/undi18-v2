@@ -138,7 +138,7 @@ function AboutPage() {
                   <div className="">
                     <img
                       className="mx-auto w-full m-0 rounded rounded-b-none object-fill"
-                      style={{ "max-height": "420px" }}
+                      style={{ "maxHeight": "420px" }}
                       src={team.image}
                       alt="Tharma"
                     />

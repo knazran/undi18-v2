@@ -29,7 +29,12 @@ const Hero = () => {
 
           {/* CTA */}
           <div className="lg:flex mt-4 lg:mt-12">
-            <a className="w-full mx-auto md:w-3/5 lg:w-1/2 " href="#">
+            <a
+              className="w-full mx-auto md:w-3/5 lg:w-1/2 "
+              href="https://forms.gle/aT6fyjXaP5fBd4Nh9"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <button
                 type="button"
                 className="w-full text-white text-center py-2 px-4 rounded bg-red-800 hover:bg-red-900"
@@ -37,7 +42,10 @@ const Hero = () => {
                 Join Generasi Undi18
               </button>
             </a>
-            <AnchorLink className="lg:px-4 mx-auto w-full mt-4 lg:mt-0 md:w-3/5 lg:w-1/2 " to="/#programmes">
+            <AnchorLink
+              className="lg:px-4 mx-auto w-full mt-4 lg:mt-0 md:w-3/5 lg:w-1/2 "
+              to="/#programmes"
+            >
               <button
                 type="button"
                 className="w-full text-white text-center py-2 px-4 rounded bg-red-800 hover:bg-red-900"
@@ -45,14 +53,6 @@ const Hero = () => {
                 See Our Programs
               </button>
             </AnchorLink>
-            {/* <div className="lg:px-6 w-full mt-4 lg:mt-0 lg:w-1/3 ">
-              <button
-                type="button"
-                className="w-full text-white text-center py-2 px-4 rounded bg-red-700 hover:bg-red-800"
-              >
-                Follow Our Campaigns
-              </button>
-            </div> */}
           </div>
         </div>
       </div>

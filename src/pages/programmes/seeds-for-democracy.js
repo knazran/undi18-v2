@@ -4,6 +4,21 @@ import Layout from "../../components/layout";
 import SEO from "../../components/seo";
 import sfd_hero from "../../images/sfd-hero.jpg";
 
+import workshop1_1 from "../../images/workshop/workshop1-1.jpg";
+import workshop1_2 from "../../images/workshop/workshop1-2.jpg";
+import workshop2_1 from "../../images/workshop/workshop2-1.jpg";
+import workshop2_2 from "../../images/workshop/workshop2-2.jpg";
+import workshop3_1 from "../../images/workshop/workshop3-1.jpg";
+import workshop3_2 from "../../images/workshop/workshop3-2.jpg";
+import workshop4_1 from "../../images/workshop/workshop4-1.jpg";
+import workshop4_2 from "../../images/workshop/workshop4-2.jpg";
+import workshop5a_1 from "../../images/workshop/workshop5a-1.jpg";
+import workshop5a_2 from "../../images/workshop/workshop5a-2.jpg";
+import workshop6_1 from "../../images/workshop/workshop5-1.jpg";
+import workshop6_2 from "../../images/workshop/workshop5-2.jpg";
+import workshop7_1 from "../../images/workshop/workshop6-1.jpg";
+import workshop7_2 from "../../images/workshop/workshop6-2.jpg";
+
 const SFDPage = () => {
   const [workShopID, setWorkshopID] = useState(0);
 
@@ -44,7 +59,8 @@ const SFDPage = () => {
         `,
         ],
         url: null,
-        images: [],
+        image1: workshop1_1,
+        image2: workshop1_2,
       },
       {
         key: 1,
@@ -55,7 +71,8 @@ const SFDPage = () => {
         details: [],
         url:
           "https://drive.google.com/file/d/1FViElJ-poHdEvFRRutV1cck7CusKRa9s/view?usp=sharing",
-        images: [],
+        image1: workshop2_1,
+        image2: workshop2_2,
       },
       {
         key: 2,
@@ -71,7 +88,8 @@ const SFDPage = () => {
         ],
         url:
           "https://drive.google.com/file/d/11XGflqlYvR9egJXtGgk1PT7oznjMLapB/view?usp=sharing",
-        images: [],
+        image1: workshop3_1,
+        image2: workshop3_2,
       },
       {
         key: 3,
@@ -82,7 +100,8 @@ const SFDPage = () => {
         `,
         details: [],
         url: null,
-        images: [],
+        image1: workshop4_1,
+        image2: workshop4_2,
       },
       {
         key: 4,
@@ -92,7 +111,35 @@ const SFDPage = () => {
         for social media management, creating impactful visuals and planning a campaign.`,
         details: [],
         url: `https://docs.google.com/presentation/d/1xy1cmKT_ybasSh9K43xAZW2yhffI5d2Xd1hSCA4bMkA/edit?usp=sharing`,
-        images: [],
+        image1: workshop5a_1,
+        image2: workshop5a_2,
+      },
+      {
+        key: 5,
+        title: "Negotiation Simulation",
+        subtitle: `Participants were invited to participate in a heated negotiation simulation activity with a twist - 
+        they had to take the role of someone from a different ethnic identity from their own selves. 
+        Discussions were based on a fictional scenario where the Ministry of Education proposes to recognise the UEC for public university admissions in 
+        exchange for removing funding from vernacular schools. This manages to get EVERYONE angry. How do you solve this problem? 
+        How do you find a win-win solution? How do you overcome different, conflicting identities?`,
+        details: [
+          `Through this activity, participants learned conflict management, bargaining, and most importantly - 
+          learning to empathize with people who are from a different background than you are.`
+        ],
+        url: `https://docs.google.com/presentation/d/1xy1cmKT_ybasSh9K43xAZW2yhffI5d2Xd1hSCA4bMkA/edit?usp=sharing`,
+        image1: workshop6_1,
+        image2: workshop6_2,
+      },
+      {
+        key: 6,
+        title: "Malaysian Changemakers Panel",
+        subtitle: `Beyond the workshops for the participants, we wanted them to hear from folks who have made a career out of their passion 
+        for social impact or nation-building for Malaysia. Therefore we decided to showcase the various avenues for Malaysian youths to work towards a progressive nation.
+        `,
+        details: [],
+        url: `https://docs.google.com/presentation/d/1xy1cmKT_ybasSh9K43xAZW2yhffI5d2Xd1hSCA4bMkA/edit?usp=sharing`,
+        image1: workshop7_1,
+        image2: workshop7_2,
       },
     ],
   };
@@ -176,7 +223,7 @@ const SFDPage = () => {
                     workshop.key === workShopID
                       ? "text-white bg-red-800 hover:bg-red-800"
                       : "text-red-800 hover:bg-red-100"
-                  }  p-4 mb-4`}
+                  }  p-4 mb-2`}
                   onClick={() => {
                     setWorkshopID(workshop.key);
                     console.log(workShopID);
@@ -198,24 +245,44 @@ const SFDPage = () => {
                 >
                   <div className="p-0 m-0 ">
                     <div className="w-full self-start">
+                      {/* Content */}
                       <h3 className="text-md lg:text-lg font-semibold text-black tracking-wider px-4">
                         {programmeInfo.workshop[workShopID].title}
                       </h3>
                       <p className="text-sm lg:text-md mt-2 leading-relaxed font-light text-gray-700 px-4 mb-4">
                         {programmeInfo.workshop[workShopID].subtitle}
                       </p>
+                      {programmeInfo.workshop[workShopID].details.map((deets,idx)=>(
+                        <p key={idx} className="text-sm lg:text-md mt-2 leading-relaxed font-light text-gray-700 px-4 mb-4">
+                        {deets}
+                      </p>
+                      ))}
+
+                      {/* url */}
                       {programmeInfo.workshop[workShopID].url ? (
                         <a
                           className="text-sm font-semibold text-red-800 hover:text-red-900 lg:text-md mt-2 leading-relaxed font-light text-gray-700 px-4 mb-4"
-                          href={programmeInfo.workshop[workShopID].url} target='_blank' rel="noopener noreferrer"
+                          href={programmeInfo.workshop[workShopID].url}
+                          target="_blank"
+                          rel="noopener noreferrer"
                         >
                           Check out module materials →
                         </a>
                       ) : (
                         <p className="text-sm lg:text-md mt-2 leading-relaxed font-light text-gray-700 px-4 mb-4">
-                          {programmeInfo.workshop[workShopID].subtitle}
+                          
                         </p>
                       )}
+
+                      {/* Picture */}
+                      <div className="w-full lg:flex items-stretch mt-4">
+                        <div className="lg:w-1/2 p-4">
+                          <img className="w-full  rounded-md shadow-lg" alt="workshop" src={programmeInfo.workshop[workShopID].image1}></img>
+                        </div>
+                        <div className="lg:w-1/2 p-4 ">
+                          <img className="w-full rounded-md shadow-lg" alt="workshop" src={programmeInfo.workshop[workShopID].image2}></img>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
