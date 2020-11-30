@@ -67,6 +67,13 @@ function Header() {
               {link.title}
             </Link>
           ))}
+          <a
+            className="block mt-4 text-red-800 hover:text-red-900 no-underline md:inline-block md:mt-0 md:ml-12"
+            key="blog"
+            href="https://undi18.wordpress.com"
+          >
+            Blog
+          </a>
           <AnchorLink
             className="block mt-4 text-red-800 hover:text-red-900 no-underline md:inline-block md:mt-0 md:ml-12"
             key="events"
