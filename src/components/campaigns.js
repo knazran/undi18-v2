@@ -86,7 +86,6 @@ const Campaigns = () => {
                       <FaInstagram />
                     </a>
                 </IconContext.Provider>
-                  
                 </div>
               </div>
             </div>

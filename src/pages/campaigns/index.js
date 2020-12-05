@@ -57,9 +57,9 @@ const CampaignsPage = ({data}) => {
         </div>
         <div
           className="w-full lg:mb-16"
-          data-sal="slide-left"
-          data-sal-duration="700"
-          data-sal-easing="ease"
+          // data-sal="slide-left"
+          // data-sal-duration="700"
+          // data-sal-easing="ease"
         >
           <Campaigns />
         </div>
