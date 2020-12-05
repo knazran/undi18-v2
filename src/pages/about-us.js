@@ -85,7 +85,7 @@ function AboutPage({data}) {
       <section id="team">
         <div className="w-20 h-1 bg-red-800 rounded-lg self-start mb-2"></div>
         <h3 className="text-2xl font-semibold tracking-wider mb-2">The Team</h3>
-        <div className="lg:flex lg:flex-wrap lg:justify-center mt-8 lg:mb-24">
+        <div className="lg:flex lg:flex-wrap lg:justify-center mt-8 lg:mb-12">
           {aboutUs.frontmatter.team.map((staff) => (
             <div key={staff.name} className="mx-auto w-4/5 lg:mx-0 mb-4 lg:w-1/3 lg:items-stretch">
               <div className="border rounded shadow-md lg:mx-6" style={{ "height": "100%" }}>
@@ -121,6 +121,13 @@ function AboutPage({data}) {
               </div>
             </div>
           ))}
+        </div>
+      
+        <div className="w-full lg:w-2/3 mx-auto p-4 my-4 border-4 border-red-800 rounded-md text-center font-semibold mb-12">
+          <p className='text-center font-bold text-xl mb-4'>Work With Us</p>
+          <p className='text-center text-md text-gray-800 mb-8'>We are on the look out for amazing driven people to work with us in this journey</p>
+          <button className="bg-red-800 hover:bg-red-900 text-sm lg:text-md text-white w-1/3 rounded-md py-2">Join The Team</button>
+          {/* bg-red-800 hover:bg-red-900  text-sm lg:text-md text-white */}
         </div>
       </section>
     </Layout>
