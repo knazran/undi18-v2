@@ -1,33 +1,37 @@
 import React from "react";
+import { graphql } from 'gatsby'
+import PropTypes from 'prop-types'
 // import saksama from "../../images/saksama.png";
 import Layout from "../../components/layout";
 import Campaigns from "../../components/campaigns";
 import SEO from "../../components/seo";
-import advocacy from "../../images/campaign-advocacy.png";
+// import advocacy from "../../images/campaign-advocacy.png";
 
-const CampaignsPage = () => {
-  const advocacyItems = [
-    {
-      key:1,
-      title: "Kickstart",
-      subtitle: "Assembling a winning coalition"
-    },
-    {
-      key:2,
-      title: "Communication",
-      subtitle: "Building social media momentum"
-    },
-    {
-      key:3,
-      title: "Engagement",
-      subtitle: "Engaging rakyat to win over public opinion"
-    },
-    {
-      key:4,
-      title: "Lobbying",
-      subtitle: "Playing the game of leverage"
-    },
-  ]
+const CampaignsPage = ({data}) => {
+  const {campaignMain} = data;
+  console.log(campaignMain)
+  // const advocacyItems = [
+  //   {
+  //     key:1,
+  //     title: "Kickstart",
+  //     subtitle: "Assembling a winning coalition"
+  //   },
+  //   {
+  //     key:2,
+  //     title: "Communication",
+  //     subtitle: "Building social media momentum"
+  //   },
+  //   {
+  //     key:3,
+  //     title: "Engagement",
+  //     subtitle: "Engaging rakyat to win over public opinion"
+  //   },
+  //   {
+  //     key:4,
+  //     title: "Lobbying",
+  //     subtitle: "Playing the game of leverage"
+  //   },
+  // ]
   return (
     <Layout>
       <SEO
@@ -44,10 +48,10 @@ const CampaignsPage = () => {
           >
             <div className="w-20 h-1 rounded-lg self-start bg-red-800"></div>
             <h3 className="text-3xl lg:text-4xl font-semibold tracking-wider py-2 text-black">
-              Drive Change. Work to build a better Malaysia.
+              {campaignMain.frontmatter.title}
             </h3>
             <p className="text-md mb-2 leading-relaxed font-light">
-              Join us in our causes.
+            {campaignMain.frontmatter.subtitle}
             </p>
           </div>
         </div>
@@ -62,9 +66,11 @@ const CampaignsPage = () => {
         <div className="w-full lg:mb-16">
           <div className="w-20 h-1 rounded-lg self-start bg-red-800"></div>
           <h3 className="text-xl lg:text-2xl tracking-wider py-2 mb-4 text-black">
-            Undi18 Advocacy Approach
+          {campaignMain.frontmatter.advocacyApproach.title}
           </h3>
-          <p className="text-md mb-2 leading-relaxed font-light">
+          {/* {} */}
+          <div dangerouslySetInnerHTML={{ __html: campaignMain.html }}></div>
+          {/* <p className="text-md mb-2 leading-relaxed font-light">
             Undi18 built a powerful political movement that mobilized hundreds
             of thousands of Malaysian youth through social media. Online
             engagement with Undi18’s campaign material reached millions of
@@ -82,8 +88,8 @@ const CampaignsPage = () => {
           <p className="text-md mb-2 leading-relaxed font-light">
             To achieve the constitutional amendment, we set out a 4-point
             approach for Undi18’s advocacy:
-          </p>
-          <div
+          </p> */}
+          {/* <div
             data-sal="slide-up"
             data-sal-duration="700"
             data-sal-easing="ease"
@@ -110,7 +116,7 @@ const CampaignsPage = () => {
             campaign, we aim to replicate the success of the Undi18 Advocacy
             Approach. Talk to us if you would like us to consult you on your
             campaign.
-          </p>
+          </p> */}
         </div>
       </section>
     </Layout>
@@ -118,3 +124,22 @@ const CampaignsPage = () => {
 };
 
 export default CampaignsPage;
+
+export const pageQuery = graphql`
+  query CampaignPageQuery {
+    campaignMain: markdownRemark(frontmatter: { templateKey: { eq: "campaigns-main" } }) {
+      frontmatter {
+        title
+        subtitle
+        advocacyApproach {
+          title
+        }
+      }
+      html
+    }
+  }
+`
+
+CampaignsPage.propTypes = {
+  data: PropTypes.object
+}

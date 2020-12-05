@@ -1,4 +1,6 @@
+/* eslint-disable react/prop-types */
 import React from "react";
+import { graphql } from "gatsby"
 
 import Hero from "../components/hero";
 import MainPitch from "../components/main-pitch";
@@ -12,7 +14,10 @@ import SEO from "../components/seo";
 import logo from "../images/undi18-logo2.png";
 // import partner from "../images/partners.jpeg";
 
-function IndexPage() {
+export default function IndexPage({ data }) {
+  const { posts } = data.campaigns;
+  console.log(posts);
+
   return (
     <Layout>
       <SEO
@@ -78,4 +83,18 @@ function IndexPage() {
   );
 }
 
-export default IndexPage;
+export const pageQuery = graphql`
+  query MyQuery {
+    campaigns: allMarkdownRemark {
+      posts: nodes {
+        frontmatter {
+          date(fromNow: true)
+          title
+          description
+        }
+        excerpt
+        id
+      }
+    }
+  }
+`

@@ -16,6 +16,50 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-scroll-reveal`,
     `gatsby-plugin-anchor-links`,
+    `gatsby-plugin-netlify-cms`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: `${__dirname}/src/images/`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/campaigns`,
+        name: `campaigns`,
+      },
+    },
+    // {
+    //   resolve: `gatsby-source-filesystem`,
+    //   options: {
+    //     path: `${__dirname}/content/assets`,
+    //     name: `assets`,
+    //   },
+    // },
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: `gatsby-remark-classes`,
+            options: {
+              classMap: {
+                "heading[depth=3]": "text-3xl lg:text-4xl font-semibold tracking-wider py-2 text-black",
+                paragraph: "text-md mb-2 leading-relaxed font-light",
+              }
+            }
+          },
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 590,
+            },
+          },
+        ]
+      }
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -28,13 +72,13 @@ module.exports = {
         icon: `src/images/favicon2.png`,
       },
     },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `images`,
-        path: path.join(__dirname, `src`, `images`),
-      },
-    },
+    // {
+    //   resolve: `gatsby-source-filesystem`,
+    //   options: {
+    //     name: `images`,
+    //     path: path.join(__dirname, `src`, `images`),
+    //   },
+    // },
     {
       resolve: `gatsby-plugin-sharp`,
     },
