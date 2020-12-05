@@ -2,10 +2,10 @@
 templateKey: campaign-post
 title: Undi Saksama
 date: "2020-05-28T22:40:32.169Z"
-image: ../images/saksama.png
+featuredImage: "../../src/images/saksama.png"
 description: A youth campaign to advocate for equal democratic representation for every Malaysian voter. Based on the principle of “Satu Rakyat, Satu Undi, Satu Nilai”, we aim to address gerrymandering, malapportionment and alternative voting systems and bring these conversations to the average citizen.
 campaign-color: "#032de5"
-url: https://twitter.com/Senate18My
+url: /campaigns/undi-saksama
 ---
 
 ### Background
