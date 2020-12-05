@@ -6,6 +6,8 @@ featuredImage: "../../src/images/saksama.png"
 description: A youth campaign to advocate for equal democratic representation for every Malaysian voter. Based on the principle of “Satu Rakyat, Satu Undi, Satu Nilai”, we aim to address gerrymandering, malapportionment and alternative voting systems and bring these conversations to the average citizen.
 campaign-color: "#032de5"
 url: /campaigns/undi-saksama
+twitter_url: https://twitter.com/undisaksama
+ig_url: https://www.instagram.com/undisaksama
 ---
 
 ### Background
