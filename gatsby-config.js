@@ -27,17 +27,24 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/content/campaigns`,
-        name: `campaigns`,
+        path: `${__dirname}/content`,
+        name: `content`,
       },
     },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${__dirname}/content/assets`,
-        name: `assets`,
-      },
-    },
+    // {
+    //   resolve: `gatsby-source-filesystem`,
+    //   options: {
+    //     path: `${__dirname}/content/campaigns`,
+    //     name: `campaigns`,
+    //   },
+    // },
+    // {
+    //   resolve: `gatsby-source-filesystem`,
+    //   options: {
+    //     path: `${__dirname}/content/assets`,
+    //     name: `assets`,
+    //   },
+    // },
     {
       resolve: `gatsby-transformer-remark`,
       options: {
@@ -46,7 +53,8 @@ module.exports = {
             resolve: `gatsby-remark-classes`,
             options: {
               classMap: {
-                "heading[depth=3]": "text-3xl lg:text-4xl font-semibold tracking-wider py-2 text-black",
+                "heading[depth=2]": "text-3xl lg:text-4xl font-semibold tracking-wider py-2 text-black",
+                "heading[depth=3]": "text-xl lg:text-2xl font-semibold tracking-wider py-2 text-black",
                 paragraph: "text-md mb-2 leading-relaxed font-light",
               }
             }
