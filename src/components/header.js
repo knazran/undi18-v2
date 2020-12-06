@@ -1,5 +1,5 @@
 import { Link } from "gatsby";
-import { AnchorLink } from "gatsby-plugin-anchor-links";
+// import { AnchorLink } from "gatsby-plugin-anchor-links";
 import React, { useState } from "react";
 import logo from "../images/undi18-logo.png";
 
@@ -16,7 +16,7 @@ function Header() {
   // `);
 
   return (
-    <header className="bg-white">
+    <header className="">
       <div className="flex flex-wrap font-body items-center justify-between lg:max-w-4xl  xl:max-w-6xl px-4 py-4 mx-auto md:pt-8 md:pb-4">
         <Link to="/">
           <h1 className="flex items-center text-red-800 no-underline">
@@ -74,20 +74,20 @@ function Header() {
           >
             Blog
           </a>
-          <AnchorLink
+          {/* <AnchorLink
             className="block mt-4 text-red-800 hover:text-red-900 no-underline md:inline-block md:mt-0 md:ml-12"
             key="events"
             to="/#events"
           >
             Events
-          </AnchorLink>
-          <AnchorLink
+          </AnchorLink> */}
+          {/* <AnchorLink
             className="block mt-4 text-red-800 hover:text-red-900 no-underline md:inline-block md:mt-0 md:ml-12"
             key="media"
             to="/#media"
           >
             Media Mentions
-          </AnchorLink>
+          </AnchorLink> */}
           <Link
             className="block mt-4 bg-red-800 hover:bg-red-900 text-white rounded-lg py-2 px-4 no-underline md:inline-block md:mt-0 md:ml-12"
             key="recruit"

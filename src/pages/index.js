@@ -12,6 +12,7 @@ import Partners from "../components/partners";
 import SEO from "../components/seo";
 
 import logo from "../images/undi18-logo2.png";
+import overflow_logo from "../images/overflow-logo.png";
 // import partner from "../images/partners.jpeg";
 
 export default function IndexPage({ data }) {
@@ -24,7 +25,9 @@ export default function IndexPage({ data }) {
         keywords={[`undi 18`, `voter education`, `youth`, `pemuda negara`, `digital campaign`, `youth empowerment`, `electoral reform`, `CSO`, `political education`]}
         title="Home"
       />
-
+      <div className="absolute top-0 right-0 w-2/3 md:w-2/5 lg:mx-16" style={{ "zIndex": -100 }}>
+        <img src={overflow_logo} alt="overflow-logo" />
+      </div>
       <section id="hero" className="">
         <Hero />
       </section>
@@ -68,15 +71,6 @@ export default function IndexPage({ data }) {
           className="my-12 lg:flex"
         >
           <Partners/>
-          {/* <div className="my-6 w-full">
-            <div className="w-20 h-1 bg-red-800 rounded-lg self-start mb-2"></div>
-            <h3 className="text-2xl font-semibold tracking-wider">
-              Our Partners & Clients
-            </h3>
-            <div className="lg:flex lg:flex-col justify-center">
-              <img src={partner} alt="Partners" />
-            </div>
-          </div> */}
         </div>
       </section>
     </Layout>

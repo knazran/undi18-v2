@@ -1,5 +1,5 @@
 import React from 'react';
-import hero from '../images/heroimg.png';
+// import hero from '../images/heroimg.png';
 import { AnchorLink } from 'gatsby-plugin-anchor-links';
 // import { Image, Link } from "gatsby";
 
@@ -14,14 +14,14 @@ const Hero = () => {
       <div className='md:mt-8 lg:w-3/5 lg:pr-8'>
         <div className='flex flex-col xl:mt-12'>
           {/* Hero Title */}
-          <h1 className='text-red-800 font-bold text-4xl tracking-widest '>
+          <h1 className='text-red-800 font-black text-4xl lg:text-6xl'>
             Impacted 8 Million Youths and counting
           </h1>
           {/* Hero Subtitle */}
-          <p className='text-lg text-gray-700 mt-3'>
+          <p className='text-lg xl:text-2xl text-gray-700 my-3'>
             Pemerkasaan demokrasi bermula dengan anak muda.
           </p>
-          <p className='text-lg text-gray-700'>
+          <p className='text-lg xl:text-2xl text-gray-700'>
             We are a non-partisan platform that’s building a movement of
             champions for democracy.
           </p>
@@ -62,9 +62,9 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className='mt-8 mx-auto md:w-4/5 lg:w-2/5'>
+      {/* <div className='mt-8 mx-auto md:w-4/5 lg:w-2/5'>
         <img className='rounded-md' alt='Hero Image' src={hero}></img>
-      </div>
+      </div> */}
     </div>
   );
 };

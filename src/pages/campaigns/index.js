@@ -12,7 +12,10 @@ const CampaignsPage = ({data}) => {
   return (
     <Layout>
       <SEO
-        keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
+        keywords={[
+          `undi18`, `campaigns`, `youth empowerment`, `senate18`, `111 initiative`, `undi sabah`, `undi sarawak`, `tenaga belia`,
+          `undi saksama`, `myhutan`
+      ]}
         title="Undi18 Campaigns"
       />
       <section>
