@@ -88,6 +88,13 @@ function Header() {
           >
             Media Mentions
           </AnchorLink>
+          <Link
+            className="block mt-4 bg-red-800 hover:bg-red-900 text-white rounded-lg py-2 px-4 no-underline md:inline-block md:mt-0 md:ml-12"
+            key="recruit"
+            to="/careers"
+          >
+            Join The Team
+          </Link>
         </nav>
       </div>
     </header>
