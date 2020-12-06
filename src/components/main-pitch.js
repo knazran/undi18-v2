@@ -37,7 +37,9 @@ const MainPitch = () => {
       >
         <div className="container mx-auto px-4 py-0 lg:px-0">
           <div className='w-full md:w-1/2'>
-            <h3 className="text-3xl lg:text-5xl font-semibold tracking-wider py-2 text-gray-200">
+            <h3 className="text-3xl lg:text-5xl font-semibold tracking-wider py-2 text-gray-200"
+            style={{textShadow: "0 0 1px gray, 0 0 1px gray, 0 0 1px gray, 0 0 1px gray"}}
+            >
               Build the movement of champions for democracy. Starting from youths.
             </h3>
             <p className="text-md lg:text-xl mt-2 mb-6 leading-relaxed text-white">

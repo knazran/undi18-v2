@@ -39,8 +39,8 @@ export default function IndexPage({ data }) {
       <section id="programmes" className="pt-6 lg:pt-12 container mx-auto px-4 py-0 lg:px-0">
         <Programmes limit={3}/>
         <div className='w-full flex justify-center my-4'>
-          <Link to="/programmes">
-            <button className='mx-auto w-2/3 lg:w-1/3 bg-red-800 hover:bg-red-900 text-white rounded-lg py-2 px-4'>See More of Our Programmes</button>
+          <Link className='w-2/3 lg:w-1/3' to="/programmes">
+            <button className='mx-auto w-full bg-red-800 hover:bg-red-900 text-white rounded-lg py-2 px-4'>See More of Our Programmes</button>
           </Link>
         </div>
         

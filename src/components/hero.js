@@ -1,7 +1,7 @@
 import React from 'react';
-import hero from '../images/myapec.jpg';
+// import hero from '../images/myapec.jpg';
+import hero from '../images/hero-pd.jpg';
 import { AnchorLink } from 'gatsby-plugin-anchor-links';
-// import { Image, Link } from "gatsby";
 
 const Hero = () => {
   return (
@@ -11,7 +11,7 @@ const Hero = () => {
       data-sal-duration='700'
       data-sal-delay='100'
       data-sal-easing='ease'
-      style={{ backgroundImage: `url(${hero})` }}
+      style={{ backgroundImage: `url(${hero})` , backgroundSize: "cover"}}
       >
       {/* <div className="absolute right-0 w-full" style={{ "zIndex": -100 }}>
         <img src={hero} className="object-cover w-screen " alt="overflow-logo" />
@@ -19,7 +19,9 @@ const Hero = () => {
       <div className='md:mt-8 lg:pr-8 mx-auto container px-4 py-4 lg:px-0'>
         <div className='w-full lg:w-2/3 flex flex-col xl:mt-12'>
           {/* Hero Title */}
-          <h1 className='text-white font-black text-4xl lg:text-6xl'>
+          <h1 className='text-white font-black text-4xl lg:text-6xl'
+          style={{textShadow: "0 0 1px gray, 0 0 1px gray, 0 0 1px gray, 0 0 1px gray"}}
+          >
             Impacted 8 Million Youths and counting
           </h1>
           {/* Hero Subtitle */}
@@ -57,7 +59,7 @@ const Hero = () => {
             </div>
             <div className='w-full mt-8 lg:mt-16'>
               <span className='text-lg text-white'>Want to read more?</span>
-              <a href="https://undi18.wordpress.com/" className='text-lg text-red-700 hover:text-red-900 inline ml-2'>Check out our blog</a>
+              <a href="https://undi18.wordpress.com/" className='text-lg font-bold text-white hover:text-red-900 inline ml-2'>Check out our blog</a>
 
             </div>
           </div>
