@@ -6,10 +6,9 @@ module.exports = {
       fontFamily: {
         body: ["Monstserrat", "sans-serif"],
       },
-      backgroundImage: {
+      backgroundImage: theme => ({
         'main-pitch': "url('src/images/main_pitch_greyscale.jpg')"
-      }
-      
+       })
     },
     colors: {
       
