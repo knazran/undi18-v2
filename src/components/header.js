@@ -51,7 +51,7 @@ function Header() {
               title: `About Us`,
             },
             {
-              route: `/#programmes`,
+              route: `/programmes`,
               title: `Programmes`,
             },
             {

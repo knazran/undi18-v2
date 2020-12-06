@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "gatsby";
-import mainpitchimg from "../images/main_pitch_greyscale.jpg";
+import mainpitchimg from "../images/main-pitch-color.jpg";
 
 const MainPitch = () => {
   return (
@@ -10,10 +10,10 @@ const MainPitch = () => {
       >
         <div className="container mx-auto px-4 py-0 lg:px-0">
           <div className='w-full md:w-1/2'>
-            <h3 className="text-3xl lg:text-5xl font-semibold tracking-wider py-2 text-red-800">
+            <h3 className="text-3xl lg:text-5xl font-semibold tracking-wider py-2 text-red-300">
               Build the movement of champions for democracy. Starting from youths.
             </h3>
-            <p className="text-md lg:text-xl mt-2 mb-6 leading-relaxed text-gray-800">
+            <p className="text-md lg:text-xl mt-2 mb-6 leading-relaxed text-white">
               Promoting a youth-centric agenda and democratic reforms. Undi18 aims
               to bridge the gap between politicians, policymakers, and youth. We
               help Malaysians read and understand policies beyond politics.
@@ -37,10 +37,10 @@ const MainPitch = () => {
       >
         <div className="container mx-auto px-4 py-0 lg:px-0">
           <div className='w-full md:w-1/2'>
-            <h3 className="text-3xl lg:text-5xl font-semibold tracking-wider py-2 text-red-800">
+            <h3 className="text-3xl lg:text-5xl font-semibold tracking-wider py-2 text-gray-200">
               Build the movement of champions for democracy. Starting from youths.
             </h3>
-            <p className="text-md lg:text-xl mt-2 mb-6 leading-relaxed text-gray-800">
+            <p className="text-md lg:text-xl mt-2 mb-6 leading-relaxed text-white">
               Promoting a youth-centric agenda and democratic reforms. Undi18 aims
               to bridge the gap between politicians, policymakers, and youth. We
               help Malaysians read and understand policies beyond politics.

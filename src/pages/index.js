@@ -36,8 +36,12 @@ export default function IndexPage({ data }) {
         <MainPitch />
       </section>
 
-      <section id="programmes" className="pt-6 lg:pt-12 mt-8 container mx-auto px-4 py-0 lg:px-0">
-        <Programmes />
+      <section id="programmes" className="pt-6 lg:pt-12 container mx-auto px-4 py-0 lg:px-0">
+        <Programmes limit={3}/>
+        <div className='w-full flex justify-center my-4'>
+          <button className='mx-auto w-2/3 lg:w-1/3 bg-red-800 hover:bg-red-900 text-white rounded-lg py-2 px-4'>See More of Our Programmes</button>
+        </div>
+        
       </section>
       <div
         className="relative w-full mt-0 lg:mt-12 py-6 bg-black flex flex-col justify-center mx-auto px-4 py-0 lg:px-0"
