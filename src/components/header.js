@@ -1,5 +1,5 @@
 import { Link } from "gatsby";
-// import { AnchorLink } from "gatsby-plugin-anchor-links";
+import { AnchorLink } from "gatsby-plugin-anchor-links";
 import React, { useState } from "react";
 import logo from "../images/undi18-logo.png";
 
@@ -81,13 +81,13 @@ function Header() {
           >
             Events
           </AnchorLink> */}
-          {/* <AnchorLink
+          <AnchorLink
             className="block mt-4 text-red-800 hover:text-red-900 no-underline md:inline-block md:mt-0 md:ml-12"
             key="media"
             to="/#media"
           >
             Media Mentions
-          </AnchorLink> */}
+          </AnchorLink>
           <Link
             className="block mt-4 bg-red-800 hover:bg-red-900 text-white rounded-lg py-2 px-4 no-underline md:inline-block md:mt-0 md:ml-12"
             key="recruit"
