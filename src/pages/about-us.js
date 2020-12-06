@@ -20,7 +20,7 @@ function AboutPage({data}) {
         keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
         title="About"
       />
-
+      <div className='container mx-auto px-4 lg:px-0'>
       <section className="">
         <div
           className="lg:flex mb-4"
@@ -130,7 +130,9 @@ function AboutPage({data}) {
           {/* bg-red-800 hover:bg-red-900  text-sm lg:text-md text-white */}
         </div>
       </section>
-    </Layout>
+    
+      </div>
+      </Layout>
   );
 }
 

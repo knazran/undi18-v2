@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import React from "react";
-import { graphql } from "gatsby"
+import { graphql, Link } from "gatsby"
 
 import Hero from "../components/hero";
 import MainPitch from "../components/main-pitch";
@@ -39,7 +39,9 @@ export default function IndexPage({ data }) {
       <section id="programmes" className="pt-6 lg:pt-12 container mx-auto px-4 py-0 lg:px-0">
         <Programmes limit={3}/>
         <div className='w-full flex justify-center my-4'>
-          <button className='mx-auto w-2/3 lg:w-1/3 bg-red-800 hover:bg-red-900 text-white rounded-lg py-2 px-4'>See More of Our Programmes</button>
+          <Link to="/programmes">
+            <button className='mx-auto w-2/3 lg:w-1/3 bg-red-800 hover:bg-red-900 text-white rounded-lg py-2 px-4'>See More of Our Programmes</button>
+          </Link>
         </div>
         
       </section>
@@ -50,6 +52,7 @@ export default function IndexPage({ data }) {
           <img src={logo} alt="Undi18" />
         </div>
         <div>
+
           <h3 className="text-xl lg:text-3xl text-center text-white font-semibold tracking-wider">
             Campaigns for Change
           </h3>

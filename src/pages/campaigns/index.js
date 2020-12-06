@@ -18,7 +18,7 @@ const CampaignsPage = ({data}) => {
       ]}
         title="Undi18 Campaigns"
       />
-      <section>
+      <div className='container mx-auto px-4 lg:px-0'>
         <div className="w-full lg:flex">
           <div
             className="md:my-6 w-full lg:w-1/2"
@@ -47,7 +47,7 @@ const CampaignsPage = ({data}) => {
           </h3>
           <div dangerouslySetInnerHTML={{ __html: campaignMain.html }}></div>
         </div>
-      </section>
+      </div>
     </Layout>
   );
 };
