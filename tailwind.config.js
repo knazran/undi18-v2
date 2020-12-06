@@ -6,6 +6,9 @@ module.exports = {
       fontFamily: {
         body: ["Monstserrat", "sans-serif"],
       },
+      backgroundImage: {
+        'main-pitch': "url('src/images/main_pitch_greyscale.jpg')"
+      }
       
     },
     colors: {

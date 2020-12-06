@@ -1,5 +1,5 @@
 import React from 'react';
-// import hero from '../images/heroimg.png';
+import hero from '../images/myapec.jpg';
 import { AnchorLink } from 'gatsby-plugin-anchor-links';
 // import { Image, Link } from "gatsby";
 
@@ -10,18 +10,23 @@ const Hero = () => {
       data-sal='slide-up'
       data-sal-duration='700'
       data-sal-delay='100'
-      data-sal-easing='ease'>
-      <div className='md:mt-8 lg:w-3/5 lg:pr-8'>
-        <div className='flex flex-col xl:mt-12'>
+      data-sal-easing='ease'
+      style={{ backgroundImage: `url(${hero})` }}
+      >
+      {/* <div className="absolute right-0 w-full" style={{ "zIndex": -100 }}>
+        <img src={hero} className="object-cover w-screen " alt="overflow-logo" />
+      </div> */}
+      <div className='md:mt-8 lg:pr-8 mx-auto container px-4 py-4 md:px-0'>
+        <div className='w-full lg:w-2/3 flex flex-col xl:mt-12'>
           {/* Hero Title */}
-          <h1 className='text-red-800 font-black text-4xl lg:text-6xl'>
+          <h1 className='text-white font-black text-4xl lg:text-6xl'>
             Impacted 8 Million Youths and counting
           </h1>
           {/* Hero Subtitle */}
-          <p className='text-lg xl:text-2xl text-gray-700 my-3'>
+          <p className='text-lg xl:text-2xl text-white my-3'>
             Pemerkasaan demokrasi bermula dengan anak muda.
           </p>
-          <p className='text-lg xl:text-2xl text-gray-700'>
+          <p className='text-lg xl:text-2xl text-white'>
             We are a non-partisan platform that’s building a movement of
             champions for democracy.
           </p>
@@ -36,7 +41,7 @@ const Hero = () => {
                 rel='noopener noreferrer'>
                 <button
                   type='button'
-                  className='w-full text-white text-center py-2 px-4 rounded bg-red-800 hover:bg-red-900'>
+                  className='w-full text-white text-center py-2 px-4 rounded bg-red-800 hover:bg-red-900 mb-2'>
                   Join Generasi Undi18
                 </button>
               </a>
@@ -51,8 +56,8 @@ const Hero = () => {
               </AnchorLink>
             </div>
             <div className='w-full mt-8 lg:mt-16'>
-              <span className='text-lg text-gray-700'>Want to read more?</span>
-              <a href="https://undi18.wordpress.com/" className='text-lg text-red-800 hover:text-red-900 inline ml-2'>Check out our blog</a>
+              <span className='text-lg text-white'>Want to read more?</span>
+              <a href="https://undi18.wordpress.com/" className='text-lg text-red-700 hover:text-red-900 inline ml-2'>Check out our blog</a>
               {/* <button
                 type='button'
                 className='w-full text-white text-center py-2 px-4 rounded bg-red-800 hover:bg-red-900'>

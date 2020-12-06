@@ -17,7 +17,7 @@ function Header() {
 
   return (
     <header className="">
-      <div className="flex flex-wrap font-body items-center justify-between lg:max-w-4xl  xl:max-w-6xl px-4 py-4 mx-auto md:pt-8 md:pb-4">
+      <div className="flex flex-wrap font-body items-center justify-between container px-4 py-4 mx-auto md:pt-8 md:pb-4">
         <Link to="/">
           <h1 className="flex items-center text-red-800 no-underline">
             <div className="w-40 mr-2 fill-current">
