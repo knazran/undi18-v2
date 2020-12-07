@@ -43,7 +43,7 @@ const UndiSaksamaPage = () => {
         ]}
         title="Contact"
       />
-      <section>
+      <div className='container mx-auto px-4 lg:px-0'>
         <div className="w-full lg:flex">
           <div
             className="lg:my-6 w-full lg:w-1/2"
@@ -90,7 +90,7 @@ const UndiSaksamaPage = () => {
             </p>
           ))}
         </div>
-      </section>
+      </div>
     </Layout>
   );
 };

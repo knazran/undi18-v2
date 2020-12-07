@@ -10,10 +10,10 @@ const MainPitch = () => {
       >
         <div className="container mx-auto px-4 py-0 lg:px-0">
           <div className='w-full md:w-1/2'>
-            <h3 className="text-3xl lg:text-5xl font-semibold tracking-wider py-2 text-red-300">
+            <h3 className="text-3xl lg:text-5xl font-semibold tracking-wider py-2 text-red-800">
               Build the movement of champions for democracy. Starting from youths.
             </h3>
-            <p className="text-md lg:text-xl mt-2 mb-6 leading-relaxed text-white">
+            <p className="text-md lg:text-xl mt-2 mb-6 leading-relaxed text-gray-800">
               Promoting a youth-centric agenda and democratic reforms. Undi18 aims
               to bridge the gap between politicians, policymakers, and youth. We
               help Malaysians read and understand policies beyond politics.
