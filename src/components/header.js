@@ -60,7 +60,7 @@ function Header() {
             },
             {
               route: `/education-videos`,
-              title: `Education Videos`,
+              title: `Voter's Education Videos`,
             },
           ].map((link) => (
             <Link
