@@ -16,7 +16,7 @@ const Hero = () => {
       {/* <div className="absolute right-0 w-full" style={{ "zIndex": -100 }}>
         <img src={hero} className="object-cover w-screen " alt="overflow-logo" />
       </div> */}
-      <div className='md:mt-8 lg:pr-8 mx-auto container px-4 py-4 lg:px-0'>
+      <div className='md:mt-8 lg:pr-8 mx-auto container px-4 py-4 lg:px-8'>
         <div className='w-full lg:w-2/3 flex flex-col xl:mt-12'>
           {/* Hero Title */}
           <h1 className='text-white font-black text-4xl lg:text-6xl'

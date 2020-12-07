@@ -36,7 +36,7 @@ export default function IndexPage({ data }) {
         <MainPitch />
       </section>
 
-      <section id="programmes" className="pt-6 lg:pt-12 container mx-auto px-4 py-0 lg:px-0">
+      <section id="programmes" className="pt-6 lg:pt-12 container mx-auto px-4 py-0 lg:px-8">
         <Programmes limit={3}/>
         <div className='w-full flex justify-center my-4'>
           <Link className='w-2/3 lg:w-1/3' to="/programmes">
@@ -46,7 +46,7 @@ export default function IndexPage({ data }) {
         
       </section>
       <div
-        className="relative w-full mt-0 lg:mt-12 py-6 bg-black flex flex-col justify-center mx-auto px-4 py-0 lg:px-0"
+        className="relative w-full mt-0 lg:mt-12 py-6 bg-black flex flex-col justify-center mx-auto px-4 py-0 lg:px-8"
       >
         <div className="w-32 lg:w-56 self-center mr-3">
           <img src={logo} alt="Undi18" />
@@ -59,14 +59,14 @@ export default function IndexPage({ data }) {
         </div>
       </div>
 
-      <section id="campaigns" className="mt-8 container mx-auto px-4 py-0 lg:px-0">
+      <section id="campaigns" className="mt-8 container mx-auto px-4 py-0 lg:px-8">
         <p className="text-md px-4 lg:px-0 lg:text-xl text-center leading-relaxed font-light text-gray-700 mb-6 lg:mb-8">
           Join us in affecting change. Let’s work to build a better Malaysia!
         </p>
         <Campaigns />
       </section>
 
-      <section id="media" className="mt-12 lg:mt-20 container mx-auto px-4 py-0 lg:px-0">
+      <section id="media" className="mt-12 lg:mt-20 container mx-auto px-4 py-0 lg:px-8">
         <MediaMentions />
       </section>
 
@@ -75,7 +75,7 @@ export default function IndexPage({ data }) {
           data-sal="slide-up"
           data-sal-duration="700"
           data-sal-easing="ease"
-          className="my-12 lg:flex container mx-auto px-4 py-0 lg:px-0"
+          className="my-12 lg:flex container mx-auto px-4 py-0 lg:px-8"
         >
           <Partners/>
         </div>

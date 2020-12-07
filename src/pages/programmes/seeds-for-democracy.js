@@ -162,7 +162,7 @@ const SFDPage = () => {
         ]}
         title='Seeds For Democracy'
       />
-      <div className='container mx-auto px-4 lg:px-0'>
+      <div className='container mx-auto px-4 lg:px-8'>
         <section id='intro'>
           <div className='w-full lg:flex '>
             <div

@@ -18,7 +18,7 @@ const CampaignsPage = ({data}) => {
       ]}
         title="Undi18 Campaigns"
       />
-      <div className='container mx-auto px-4 lg:px-0'>
+      <div className='container mx-auto px-4 lg:px-8'>
         <div className="w-full lg:flex">
           <div
             className="md:my-6 w-full lg:w-1/2"

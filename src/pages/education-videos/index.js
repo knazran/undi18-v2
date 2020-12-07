@@ -47,10 +47,10 @@ const EducationVideosPage = ({ data }) => {
         ]}
         title="Online Voter's Education Videos"
       />
-      <div className='container mx-auto px-4 lg:px-0'>
+      <div className='container mx-auto px-4 lg:px-8'>
         <div className='w-full lg:flex'>
           <div
-            className='lg:my-6 w-full lg:w-1/2'
+            className='lg:my-6 w-full lg:w-2/3'
             data-sal='slide-right'
             data-sal-duration='700'
             data-sal-easing='ease'>
@@ -94,7 +94,7 @@ const EducationVideosPage = ({ data }) => {
               {educationVideo.edges.map((video) => (
                 <div key={video.node.id} className='md:flex mb-6 '>
                   <div
-                    className='w-2/3 mx-auto lg:mx-0 lg:w-1/2 pr-8'>
+                    className='w-full lg:w-1/2 lg:pr-8'>
                     <p className="text-red-800 text-md lg:text-lg mb-1 tracking-wide">
                     Video #{video.node.frontmatter.series}
                     </p> 
@@ -104,7 +104,7 @@ const EducationVideosPage = ({ data }) => {
                     <div dangerouslySetInnerHTML={{ __html: video.node.html }}></div>
                     </div>
                   <div
-                    className='w-2/3 lg:w-1/2 mx-auto lg:mx-0 p-8'
+                    className='w-full lg:w-1/2 my-4 lg:my-0 lg:p-8'
                     style={{ height: '400px' }}>
                     <Video
                       videoSrcURL={video.node.frontmatter.url}

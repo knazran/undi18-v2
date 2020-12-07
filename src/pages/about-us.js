@@ -20,7 +20,7 @@ function AboutPage({data}) {
         keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
         title="About"
       />
-      <div className='container mx-auto px-4 lg:px-0'>
+      <div className='container mx-auto px-4 lg:px-8'>
       <section className="">
         <div
           className="lg:flex mb-4"

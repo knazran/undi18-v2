@@ -17,7 +17,7 @@ function Header() {
 
   return (
     <header className="">
-      <div className="flex flex-wrap font-body items-center justify-between container px-4 py-4 lg:px-0 mx-auto md:pt-8 md:pb-4">
+      <div className="flex flex-wrap font-body items-center justify-between container px-4 py-4 mx-auto md:pt-8 md:pb-4">
         <Link to="/">
           <h1 className="flex items-center text-red-800 no-underline">
             <div className="w-40 mr-2 fill-current">
@@ -27,7 +27,7 @@ function Header() {
         </Link>
 
         <button
-          className="flex items-center block px-3 py-2 text-red-800 border border-white rounded md:hidden"
+          className="flex items-center block px-3 py-2 text-red-800 border border-white rounded lg:hidden"
           onClick={() => toggleExpansion(!isExpanded)}
         >
           <svg
@@ -43,7 +43,7 @@ function Header() {
         <nav
           className={`${
             isExpanded ? `block` : `hidden`
-          } md:block md:flex md:items-center w-full md:w-auto`}
+          } lg:flex lg:items-center w-full md:w-auto`}
         >
           {[
             {
@@ -58,9 +58,13 @@ function Header() {
               route: `/campaigns`,
               title: `Campaigns`,
             },
+            {
+              route: `/education-videos`,
+              title: `Education Videos`,
+            },
           ].map((link) => (
             <Link
-              className="block mt-4 text-red-800 hover:text-red-900 no-underline md:inline-block md:mt-0 md:ml-12"
+              className="block mt-4 text-red-800 hover:text-red-900 no-underline md:inline-block md:mt-2 md:ml-12"
               key={link.title}
               to={link.route}
             >
@@ -68,7 +72,7 @@ function Header() {
             </Link>
           ))}
           <a
-            className="block mt-4 text-red-800 hover:text-red-900 no-underline md:inline-block md:mt-0 md:ml-12"
+            className="block mt-4 text-red-800 hover:text-red-900 no-underline md:inline-block md:mt-2 md:ml-12"
             key="blog"
             href="https://undi18.wordpress.com"
           >
@@ -82,14 +86,14 @@ function Header() {
             Events
           </AnchorLink> */}
           <AnchorLink
-            className="block mt-4 text-red-800 hover:text-red-900 no-underline md:inline-block md:mt-0 md:ml-12"
+            className="block mt-4 text-red-800 hover:text-red-900 no-underline md:inline-block md:mt-2 md:ml-12"
             key="media"
             to="/#media"
           >
             Media Mentions
           </AnchorLink>
           <Link
-            className="block mt-4 bg-red-800 hover:bg-red-900 text-white rounded-lg py-2 px-4 no-underline md:inline-block md:mt-0 md:ml-12"
+            className="block mt-4 bg-red-800 hover:bg-red-900 text-white rounded-lg py-2 px-4 no-underline md:inline-block md:mt-2 md:ml-12"
             key="recruit"
             to="/careers"
           >

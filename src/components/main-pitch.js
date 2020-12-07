@@ -8,7 +8,7 @@ const MainPitch = () => {
       <div
       className="py-8 lg:py-32 bg-contain md:bg-cover block md:hidden"
       >
-        <div className="container mx-auto px-4 py-0 lg:px-0">
+        <div className="container mx-auto px-4 py-0 lg:px-8">
           <div className='w-full md:w-1/2'>
             <h3 className="text-3xl lg:text-5xl font-semibold tracking-wider py-2 text-red-800">
               Build the movement of champions for democracy. Starting from youths.

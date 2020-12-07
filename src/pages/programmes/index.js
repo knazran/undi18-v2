@@ -36,7 +36,7 @@ const ProgramsPage = ({data}) => {
           </div> */}
         </div>
         <div
-          className="w-full lg:mb-16 container mx-auto px-4 lg:px-0"
+          className="w-full lg:mb-16 container mx-auto px-4 lg:px-8"
         >
           <Programmes />
         </div>
