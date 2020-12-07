@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 
 import Layout from "../../components/layout";
 import SEO from "../../components/seo";
-import sfd_hero from "../../images/sfd-hero.jpg";
+import pd_hero from '../../images/pd-main.jpg';
 
 const CareersPage = ({data}) => {
   const {careersMain} = data;
@@ -15,6 +15,7 @@ const CareersPage = ({data}) => {
         keywords={[`undi18`, `careers`, `hiring`, `internship`]}
         title="Undi18 Careers"
       />
+      <div className='container mx-auto px-4 lg:px-8'>
       <section id='intro'>
         <div className='w-full lg:flex'>
           <div
@@ -40,7 +41,7 @@ const CareersPage = ({data}) => {
             data-sal-easing='ease'>
             <img
               className='mx-auto rounded-lg object-center lg:object-right w-full'
-              src={sfd_hero}
+              src={pd_hero}
             />
           </div>
         </div>
@@ -68,7 +69,9 @@ const CareersPage = ({data}) => {
           </div>
         </div>
       </section>
-    </Layout>
+    
+      </div>
+      </Layout>
   );
 };
 
