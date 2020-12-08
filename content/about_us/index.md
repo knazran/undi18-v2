@@ -21,12 +21,12 @@ team:
       linkedin: www.linkedin.com/in/roshineemookaiah/
       picture: "../assets/Roshinee.jpg"
     - name: Anusha Rym 
-      title: Program Associates
+      title: Program Associate
       email: anusharym@undi18.org 
       linkedin: www.linkedin.com/in/anusha-rym/
       picture: "../assets/Anusha - headshot.jpeg"
     - name: Davina Devarajan 
-      title: Program Associates
+      title: Program Associate
       email: davinadevarajan@undi18.org 
       linkedin: www.linkedin.com/in/davinadevarajan/
       picture: "../assets/Davina.jpg"
