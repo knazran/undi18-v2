@@ -58,7 +58,7 @@ const EducationVideosPage = ({ data }) => {
               className='w-20 h-1 rounded-lg self-start bg-red-800'
               //   style={{ backgroundColor: campaignInfo.campaignColor }}
             ></div>
-            <h3 className='text-3xl lg:text-4xl font-semibold tracking-wider py-2 text-black'>
+            <h3 className='text-3xl lg:text-4xl font-semibold py-2 text-black'>
               Online Voter’s Education Videos
             </h3>
             <p className='text-md mb-2 leading-relaxed font-light'>
@@ -98,7 +98,7 @@ const EducationVideosPage = ({ data }) => {
                     <p className="text-red-800 text-md lg:text-lg mb-1 tracking-wide">
                     Video #{video.node.frontmatter.series}
                     </p> 
-                    <h3 className='text-xl lg:text-2xl tracking-wider mb-4 text-black font-semibold'>
+                    <h3 className='text-xl lg:text-2xl mb-4 text-black font-semibold'>
                         {video.node.frontmatter.title}
                     </h3>
                     <div dangerouslySetInnerHTML={{ __html: video.node.html }}></div>

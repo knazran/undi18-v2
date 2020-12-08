@@ -29,7 +29,7 @@ function AboutPage({data}) {
           data-sal-easing="ease"
         >
           <div className="lg:my-6 w-full lg:w-1/2">
-            <h3 className="text-3xl lg:text-4xl font-semibold tracking-wider py-2">
+            <h3 className="text-3xl lg:text-4xl font-semibold py-2">
               {aboutUs.frontmatter.title}
             </h3>
             <p className="text-md mt-2 mb-3 lg:mb-6 leading-relaxed font-light">

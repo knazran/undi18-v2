@@ -118,7 +118,7 @@ const ParlimenDigitalPage = ({ data }) => {
               data-sal-duration='700'
               data-sal-easing='ease'>
               <div className='w-20 h-1 rounded-lg self-start bg-red-800'></div>
-              <h3 className='text-3xl lg:text-4xl font-semibold tracking-wider py-2 text-black'>
+              <h3 className='text-3xl lg:text-4xl font-semibold py-2 text-black'>
                 {programmeInfo.title}
               </h3>
               {programmeInfo.mainpitch.map((pitch, idx) => (

@@ -1,5 +1,5 @@
 import React from "react";
-import { FaFacebookSquare, FaTwitterSquare } from "react-icons/fa";
+import { FaFacebookSquare, FaTwitterSquare, FaLinkedin, FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -48,6 +48,16 @@ const Footer = () => {
                 <span className="mr-2">
                   <a href="https://twitter.com/Undi18My">
                     <FaTwitterSquare />
+                  </a>
+                </span>
+                <span className="mr-2">
+                  <a href="https://www.instagram.com/undi18my">
+                    <FaInstagram />
+                  </a>
+                </span>
+                <span className="mr-2">
+                  <a href="https://www.linkedin.com/company/undi18/">
+                    <FaLinkedin />
                   </a>
                 </span>
               </div>

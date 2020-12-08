@@ -55,7 +55,7 @@ const UndiSaksamaPage = () => {
               className="w-20 h-1 rounded-lg self-start"
               style={{ backgroundColor: campaignInfo.campaignColor }}
             ></div>
-            <h3 className="text-3xl lg:text-4xl font-semibold tracking-wider py-2 text-black">
+            <h3 className="text-3xl lg:text-4xl font-semibold py-2 text-black">
               {campaignInfo.title}
             </h3>
             {campaignInfo.mainpitch.map((pitch, idx) => (
