@@ -8,37 +8,37 @@ team:
     - name: Qyira Yusri
       title: Education Director
       email: qyirayusri@undi18.org
-      linkedin: www.linkedin.com/in/qyirayusri/
+      linkedin: https://www.linkedin.com/in/qyirayusri/
       picture: "../assets/qyira.png"
     - name: Tharma Pillai 
       title: Advocacy Director
       email: tharmapillai@undi18.org 
-      linkedin: www.linkedin.com/in/tharmapillai/
+      linkedin: https://www.linkedin.com/in/tharmapillai/
       picture: "../assets/tharma.png"
     - name: Roshinee Mookaiah
       title: Program Manager
       email: roshinee@undi18.org 
-      linkedin: www.linkedin.com/in/roshineemookaiah/
+      linkedin: https://www.linkedin.com/in/roshineemookaiah/
       picture: "../assets/Roshinee.jpg"
     - name: Anusha Rym 
       title: Program Associate
       email: anusharym@undi18.org 
-      linkedin: www.linkedin.com/in/anusha-rym/
+      linkedin: https://www.linkedin.com/in/anusha-rym/
       picture: "../assets/Anusha - headshot.jpeg"
     - name: Davina Devarajan 
       title: Program Associate
       email: davinadevarajan@undi18.org 
-      linkedin: www.linkedin.com/in/davinadevarajan/
+      linkedin: https://www.linkedin.com/in/davinadevarajan/
       picture: "../assets/Davina.jpg"
     - name: Nadia Malyanah 
       title: Research Lead
       email: nadiamalyanah@undi18.org 
-      linkedin: www.linkedin.com/in/nadineazman
+      linkedin: https://www.linkedin.com/in/nadineazman
       picture: "../assets/Nadia.jpg"
     - name: Alex Lai 
       title: Creative Lead
       email: alexlai@undi18.org 
-      linkedin: www.linkedin.com/in/alexander-lai-2b438831/
+      linkedin: https://www.linkedin.com/in/alexander-lai-2b438831/
       picture: "../assets/Alex.jpg"
 ---
 
