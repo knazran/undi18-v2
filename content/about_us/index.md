@@ -9,7 +9,7 @@ team:
       title: Education Director
       email: qyirayusri@undi18.org
       linkedin: https://www.linkedin.com/in/qyirayusri/
-      picture: "../assets/qyira.png"
+      picture: "../assets/Qyira.jpg"
     - name: Tharma Pillai 
       title: Advocacy Director
       email: tharmapillai@undi18.org 
@@ -24,7 +24,7 @@ team:
       title: Program Associate
       email: anusharym@undi18.org 
       linkedin: https://www.linkedin.com/in/anusha-rym/
-      picture: "../assets/Anusha - headshot.jpeg"
+      picture: "../assets/Anusha.jpg"
     - name: Davina Devarajan 
       title: Program Associate
       email: davinadevarajan@undi18.org 
@@ -34,7 +34,7 @@ team:
       title: Research Lead
       email: nadiamalyanah@undi18.org 
       linkedin: https://www.linkedin.com/in/nadineazman
-      picture: "../assets/Nadia.jpg"
+      picture: "../assets/Nadine.jpg"
     - name: Alex Lai 
       title: Creative Lead
       email: alexlai@undi18.org 
