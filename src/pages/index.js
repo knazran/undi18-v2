@@ -12,6 +12,8 @@ import Partners from "../components/partners";
 import SEO from "../components/seo";
 
 import logo from "../images/undi18-logo2.png";
+// import feloparlimen from "../images/Group 7 (2).png";
+// import felo_parlimen from "../images/felo-ppl-image.png";
 // import overflow_logo from "../images/overflow-logo.png";
 // import partner from "../images/partners.jpeg";
 
@@ -28,6 +30,12 @@ export default function IndexPage({ data }) {
       {/* <div className="absolute top-0 right-0 w-2/3 md:w-2/5 lg:mx-16" style={{ "zIndex": -100 }}>
         <img src={overflow_logo} alt="overflow-logo" />
       </div> */}
+      <section id='info-banner'>
+        <div className='p-2 w-full md:flex md:items-center md:justify-center text-center text-sm md:text-md' style={{backgroundColor: "#0d4769"}}>
+          <p className=' text-white'>Permohonan untuk program Felo Parlimen Malaysia telah dibuka!</p>
+          <a href='https://sites.google.com/undi18.org/felo-parlimen-malaysia' className='px-2 text-white underline hover:font-semibold'>Klik untuk maklumat lanjut</a>
+        </div>
+      </section>
       <section id="hero" className="">
         <Hero />
       </section>
@@ -35,6 +43,19 @@ export default function IndexPage({ data }) {
       <section id="main pitch" className="">
         <MainPitch />
       </section>
+
+
+      {/* <section id="felo-parlimen">
+        <div className='w-full mx-auto md:w-2/3 relative' >
+        <img src={feloparlimen} alt="Felo Parlimen" />
+        <a href='https://sites.google.com/undi18.org/felo-parlimen-malaysia'>
+
+        <button className='absolute bottom-0 py-2 px-8 rounded-lg text-white transform translate-x-24 -translate-y-32' style={{backgroundColor: "#0d4769"}}>Mohon Sekarang!</button>
+        </a>
+        
+        </div>
+          
+      </section> */}
 
       <section id="programmes" className="pt-6 lg:pt-12 container mx-auto px-4 py-0 lg:px-8">
         <Programmes limit={3}/>
