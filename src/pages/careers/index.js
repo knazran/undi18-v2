@@ -28,11 +28,33 @@ const CareersPage = ({data}) => {
               Work with Us
             </h3>
             <p className='text-md mb-2 leading-relaxed font-light'>
-              Want to be a part of the Undi 18 team? We are hiring on a rolling basis.
+              Want to be a part of the Undi 18 team? Check out our open positions!
             </p>
-            <p className='text-md mb-2 leading-relaxed font-light'>
+            {/* <p className='text-md mb-2 leading-relaxed font-light'>
               Send your CV to <strong>contact@undi18.org.</strong>
-            </p>
+            </p> */}
+            <div className='my-4'>
+            <a href="https://drive.google.com/file/d/16YDioDGqYzLhqza_tsP6jOgDIn1xPuMf/view?usp=sharing"
+            target="_blank" rel="noopener noreferrer"
+            className='text-md font-semibold text-red-800 hover:underline'>
+              Senior Associate/Associate - Campaigns
+            </a>
+            </div>
+            <div className='my-4'>
+            <a href="https://drive.google.com/file/d/16dBjKLQm_aFJAcZ_S-m05CPLtznlHMnx/view?usp=sharing" 
+            target="_blank" rel="noopener noreferrer"
+            className='text-md font-semibold text-red-800 hover:underline'>
+              Project Manager - Demokrasi Lab
+            </a>
+            </div>
+            <div className='my-4'>
+            <a href="https://drive.google.com/file/d/16xvc5EO-H0DyhrXoKLJpQxxDBK02MEOC/view?usp=sharing" 
+            target="_blank" rel="noopener noreferrer"
+            className='text-md font-semibold text-red-800 hover:underline'>
+              Senior Associate, Programme Development - Dewan Muda Malaysia
+            </a>
+            </div>
+            
           </div>
           <div
             className='my-6 w-full lg:w-1/2 lg:pl-8 flex-grow-0'
