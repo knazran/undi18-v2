@@ -122,13 +122,7 @@ function AboutPage({data}) {
             </div>
           ))}
         </div>
-      
-        <div className="w-full lg:w-2/3 mx-auto p-4 my-4 border-4 border-red-800 rounded-md text-center font-semibold mb-12">
-          <p className='text-center font-bold text-xl mb-4'>Work With Us</p>
-          <p className='text-center text-md text-gray-800 mb-8'>We are on the look out for amazing driven people to work with us in this journey</p>
-          <button className="bg-red-800 hover:bg-red-900 text-sm lg:text-md text-white w-1/3 rounded-md py-2">Join The Team</button>
-          {/* bg-red-800 hover:bg-red-900  text-sm lg:text-md text-white */}
-        </div>
+
       </section>
     
       </div>
