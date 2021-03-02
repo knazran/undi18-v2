@@ -54,6 +54,14 @@ const CareersPage = ({data}) => {
               Senior Associate, Programme Development - Dewan Muda Malaysia
             </a>
             </div>
+            <div className='my-4'>
+            <a href="https://drive.google.com/file/d/17RS-osyJwYx_R85AdDXVtSdd-IRNpatF/view" 
+            target="_blank" rel="noopener noreferrer"
+            className='text-md font-semibold text-red-800 hover:underline'>
+              Associate, Admin & Operations
+            </a>
+            </div>
+            
             
           </div>
           <div
