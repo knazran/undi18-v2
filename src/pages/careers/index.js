@@ -61,6 +61,16 @@ const CareersPage = ({data}) => {
               Associate, Admin & Operations
             </a>
             </div>
+
+            <div className='mt-12'>
+              <p className='text-xs text-gray-700 italic'>
+              * Undi18 has a zero tolerance to Sexual Exploitation and Abuse of beneficiaries. Protection from Sexual Exploitation and Abuse (PSEA) is everyone’s responsibility 
+              and all employees and team members are required to adhere to the Code of Conduct, that enshrines principles of PSEA, always (both during work hours and 
+              outside work hours). Familiarization with, and adherence to, the Code of Conduct is an essential requirement of all employees and team members, 
+              in addition to related mandatory training. All employees and team members must ensure that they understand and act in accordance with this clause.
+              </p>
+
+            </div>
             
             
           </div>
