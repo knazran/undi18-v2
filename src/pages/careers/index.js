@@ -33,32 +33,20 @@ const CareersPage = ({data}) => {
             {/* <p className='text-md mb-2 leading-relaxed font-light'>
               Send your CV to <strong>contact@undi18.org.</strong>
             </p> */}
-            <div className='my-4'>
-            <a href="https://drive.google.com/file/d/16YDioDGqYzLhqza_tsP6jOgDIn1xPuMf/view?usp=sharing"
-            target="_blank" rel="noopener noreferrer"
-            className='text-md font-semibold text-red-800 hover:underline'>
-              Senior Associate/Associate - Campaigns
-            </a>
-            </div>
-            <div className='my-4'>
+            <div className='my-4 flex'>
             <a href="https://drive.google.com/file/d/16dBjKLQm_aFJAcZ_S-m05CPLtznlHMnx/view?usp=sharing" 
             target="_blank" rel="noopener noreferrer"
             className='text-md font-semibold text-red-800 hover:underline'>
-              Project Manager - Demokrasi Lab
+              Project Manager - Demokrasi Lab <span className='text-xs text-red-700'>(Apply by 15th May 2021)</span>
             </a>
+            {/* <p className='text-xs font-semibold text-gray-800 mx-2'>Apply by 15th May 2021</p> */}
             </div>
             <div className='my-4'>
             <a href="https://drive.google.com/file/d/16xvc5EO-H0DyhrXoKLJpQxxDBK02MEOC/view?usp=sharing" 
             target="_blank" rel="noopener noreferrer"
             className='text-md font-semibold text-red-800 hover:underline'>
-              Senior Associate, Programme Development - Dewan Muda Malaysia
-            </a>
-            </div>
-            <div className='my-4'>
-            <a href="https://drive.google.com/file/d/17RS-osyJwYx_R85AdDXVtSdd-IRNpatF/view" 
-            target="_blank" rel="noopener noreferrer"
-            className='text-md font-semibold text-red-800 hover:underline'>
-              Associate, Admin & Operations
+              Senior Associate, Programme Development - Dewan Muda Malaysia 
+              <span className='text-xs text-red-700'> (Apply by 15th April 2021)</span>
             </a>
             </div>
 
