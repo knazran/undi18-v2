@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "gatsby";
 import { FaFacebookSquare, FaTwitterSquare, FaLinkedin, FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
@@ -60,6 +61,14 @@ const Footer = () => {
                     <FaLinkedin />
                   </a>
                 </span>
+              </div>
+              <div className="text-sm text-white mt-12">
+              <Link
+                key="psea"
+                to="/psea"
+              >
+                PSEA Policy
+              </Link>
               </div>
             </div>
           </div>

@@ -17,7 +17,7 @@ function AboutPage({data}) {
   return (
     <Layout>
       <SEO
-        keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
+        keywords={[`undi18`, `about us`, `youth advocacy`, `malaysia`]}
         title="About"
       />
       <div className='container mx-auto px-4 lg:px-8'>
