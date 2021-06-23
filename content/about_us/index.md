@@ -20,16 +20,6 @@ team:
       email: roshinee@undi18.org 
       linkedin: https://www.linkedin.com/in/roshineemookaiah/
       picture: "../assets/Roshinee.jpg"
-    - name: Anusha Rym 
-      title: Program Associate
-      email: anusharym@undi18.org 
-      linkedin: https://www.linkedin.com/in/anusha-rym/
-      picture: "../assets/Anusha.jpg"
-    - name: Davina Devarajan 
-      title: Program Associate
-      email: davinadevarajan@undi18.org 
-      linkedin: https://www.linkedin.com/in/davinadevarajan/
-      picture: "../assets/Davina.jpg"
     - name: Nadia Malyanah 
       title: Research Lead
       email: nadiamalyanah@undi18.org 
@@ -40,6 +30,31 @@ team:
       email: alexlai@undi18.org 
       linkedin: https://www.linkedin.com/in/alexander-lai-2b438831/
       picture: "../assets/Alex.jpg"
+    - name: Anusha Rym 
+      title: Senior Associate, Programmes
+      email: anusharym@undi18.org 
+      linkedin: https://www.linkedin.com/in/anusha-rym/
+      picture: "../assets/Anusha.jpg"
+    - name: Wani Nur Imannina 
+      title: Senior Associate, Programmes
+      email: imannina@undi18.org
+      linkedin: https://www.linkedin.com/in/ninamohds
+      picture: "../assets/Nina.jpg"
+    - name: Davina Devarajan 
+      title: Associate, Campaigns
+      email: davinadevarajan@undi18.org 
+      linkedin: https://www.linkedin.com/in/davinadevarajan/
+      picture: "../assets/Davina.jpg"
+    - name: Soon Wei Xen 
+      title: Associate, Campaigns
+      email: soonweixen@undi18.org
+      linkedin: https://www.linkedin.com/in/wxs-5269751ab/soonweixen@undi18.org
+      picture: "../assets/Soon.jpg"
+    - name: Saleha Zulkifli
+      title: Senior Associate, Admins & Operations
+      email: noorsalehah@undi18.org
+      linkedin: https://www.linkedin.com/in/salehazulkifli/noorsalehah@undi18.org
+      picture: "../assets/Saleha.jpg"
 ---
 
 ### Our Story
