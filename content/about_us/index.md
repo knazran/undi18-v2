@@ -30,16 +30,16 @@ team:
       email: alexlai@undi18.org 
       linkedin: https://www.linkedin.com/in/alexander-lai-2b438831/
       picture: "../assets/Alex.jpg"
-    - name: Anusha Rym 
-      title: Senior Associate, Programmes
-      email: anusharym@undi18.org 
-      linkedin: https://www.linkedin.com/in/anusha-rym/
-      picture: "../assets/Anusha.jpg"
     - name: Wani Nur Imannina 
       title: Senior Associate, Programmes
       email: imannina@undi18.org
       linkedin: https://www.linkedin.com/in/ninamohds
       picture: "../assets/Nina.jpg"
+    - name: Anusha Rym 
+      title: Associate, Programmes
+      email: anusharym@undi18.org 
+      linkedin: https://www.linkedin.com/in/anusha-rym/
+      picture: "../assets/Anusha.jpg"
     - name: Davina Devarajan 
       title: Associate, Campaigns
       email: davinadevarajan@undi18.org 
