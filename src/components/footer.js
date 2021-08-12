@@ -25,7 +25,7 @@ const Footer = () => {
                 PPM-008-14-27092018.
               </div>
               <div className="text-sm text-white mt-4">
-                Suite 10-01, Menara Centara, 
+                Menara Centara, 
                 <br></br>
                 Jalan Tuanku Abdul Rahman 
                 <br></br>
