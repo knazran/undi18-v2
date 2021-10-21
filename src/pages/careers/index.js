@@ -34,19 +34,25 @@ const CareersPage = ({data}) => {
               Send your CV to <strong>contact@undi18.org.</strong>
             </p> */}
             <div className='my-4 flex'>
-            <a href="https://drive.google.com/file/d/16dBjKLQm_aFJAcZ_S-m05CPLtznlHMnx/view?usp=sharing" 
+            <a href="https://docs.google.com/document/d/1TeKSBH0c_CTXuOzltI1jV7bncPF4OfHJzJf7hxmtP00/edit?usp=sharing" 
             target="_blank" rel="noopener noreferrer"
             className='text-md font-semibold text-red-800 hover:underline'>
-              Project Manager - Demokrasi Lab <span className='text-xs text-red-700'>(Apply by 15th May 2021)</span>
+              Associate - Admin & Operations
             </a>
             {/* <p className='text-xs font-semibold text-gray-800 mx-2'>Apply by 15th May 2021</p> */}
             </div>
             <div className='my-4'>
-            <a href="https://drive.google.com/file/d/16xvc5EO-H0DyhrXoKLJpQxxDBK02MEOC/view?usp=sharing" 
+            <a href="https://docs.google.com/document/d/1endfWtn5RAXtDH0bruIv2LKgCU9nwe0ARMTHrFm-KYQ/edit?usp=sharing" 
             target="_blank" rel="noopener noreferrer"
             className='text-md font-semibold text-red-800 hover:underline'>
-              Senior Associate, Programme Development - Dewan Muda Malaysia 
-              <span className='text-xs text-red-700'> (Apply by 15th April 2021)</span>
+              Programme Coordinator - Undi Negaraku
+            </a>
+            </div>
+            <div className='my-4'>
+            <a href="https://docs.google.com/document/d/1A585ZyGyF47tUy5Xru_kVRPMOBl8H07Ng05kLeU93lA/edit?usp=sharing" 
+            target="_blank" rel="noopener noreferrer"
+            className='text-md font-semibold text-red-800 hover:underline'>
+              Project Associate - Undi18
             </a>
             </div>
 

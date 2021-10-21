@@ -56,41 +56,6 @@ const Programmes = ({ limit }) => {
             Empowering, educating and engaging Malaysian youth.
           </p>
         </div>
-        <section id='felo-parlimen'>
-          <div className='w-full mx-auto relative hidden md:block'>
-            <img src={feloparlimen} alt='Felo Parlimen' />
-            <a href='https://sites.google.com/undi18.org/felo-parlimen-malaysia'>
-              <button
-                className='absolute bottom-0 py-2 px-8 rounded-lg text-white transform translate-x-24 -translate-y-32'
-                style={{ backgroundColor: '#0d4769' }}>
-                Mohon Sekarang!
-              </button>
-            </a>
-          </div>
-          <div className='w-full mx-auto relative block md:hidden mt-8'>
-            <p className='text-blue-800 text-2xl font-semibold capitalize'>FELO PARLIMEN MALAYSIA</p>
-            <p className='text-red-800 text-lg'>Permohonan dibuka!</p>
-            <img src={felo_parlimen2} alt='Felo Parlimen' />
-            <p className='text-sm mt-2 leading-relaxed font-light text-gray-600'>
-              Felo Parlimen Malaysia ialah program maya dan pembinaan kapasiti yang akan dijalankan selama lima bulan untuk memperkasakan peranan belia dalam 
-              memperjuangkan projek-projek advokasi yang penting di kawasan mereka.
-            </p>
-            <p className='text-sm mt-2 leading-relaxed font-light text-gray-600'>
-              Kami sedang mencari 45 pemimpin belia dari seluruh Malaysia untuk menyertai kurikulum ekslusif kami yang terdiri daripada bengkel atas talian dan peluang &apos;mentoring&apos;
-              dengan pemimpin politik tempatan
-            </p>
-            <p className='text-sm mt-2 leading-relaxed font-light text-gray-600 mb-4 '>
-              Sila mohon sebelum 22 Februari 2021, tengah malam!
-            </p>
-            <a className='flex justify-center' href='https://sites.google.com/undi18.org/felo-parlimen-malaysia'>
-              <button
-                className='py-2 px-8 rounded-lg text-white mx-auto'
-                style={{ backgroundColor: '#0d4769' }}>
-                Mohon Sekarang!
-              </button>
-            </a>
-          </div>
-        </section>
         <div className='md:flex md:flex-wrap justify-start mt-8'>
           {programsArray.map((program) => (
             // What we do card
