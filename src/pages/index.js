@@ -31,10 +31,10 @@ export default function IndexPage({ data }) {
         <img src={overflow_logo} alt="overflow-logo" />
       </div> */}
       <section id='info-banner'>
-        <div className='p-2 w-full md:flex md:items-center md:justify-center text-center text-sm md:text-md' style={{backgroundColor: "#0d4769"}}>
+        {/* <div className='p-2 w-full md:flex md:items-center md:justify-center text-center text-sm md:text-md' style={{backgroundColor: "#0d4769"}}>
           <p className=' text-white'>Permohonan untuk program Felo Parlimen Malaysia telah dibuka!</p>
           <a href='https://sites.google.com/undi18.org/felo-parlimen-malaysia' className='px-2 text-white underline hover:font-semibold'>Klik untuk maklumat lanjut</a>
-        </div>
+        </div> */}
       </section>
       <section id="hero" className="">
         <Hero />
