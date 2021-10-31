@@ -20,11 +20,11 @@ team:
       email: roshinee@undi18.org 
       linkedin: https://www.linkedin.com/in/roshineemookaiah/
       picture: "../assets/Roshinee.jpg"
-    - name: Nadia Malyanah 
-      title: Research Lead
-      email: nadiamalyanah@undi18.org 
-      linkedin: https://www.linkedin.com/in/nadineazman
-      picture: "../assets/Nadine.jpg"
+    - name: Charlene See
+      title: Senior Programme Lead
+      email: charlene@undi18.org 
+      linkedin: https://www.linkedin.com/in/charleneskm/
+      picture: "../assets/Charlene.jpg"
     - name: Alex Lai 
       title: Creative Lead
       email: alexlai@undi18.org 
@@ -40,16 +40,16 @@ team:
       email: anusharym@undi18.org 
       linkedin: https://www.linkedin.com/in/anusha-rym/
       picture: "../assets/Anusha.jpg"
-    - name: Davina Devarajan 
-      title: Associate, Campaigns
-      email: davinadevarajan@undi18.org 
-      linkedin: https://www.linkedin.com/in/davinadevarajan/
-      picture: "../assets/Davina.jpg"
     - name: Soon Wei Xen 
       title: Associate, Campaigns
       email: soonweixen@undi18.org
       linkedin: https://www.linkedin.com/in/wxs-5269751ab/soonweixen@undi18.org
       picture: "../assets/Soon.jpg"
+    - name: Jit Lee
+      title: Associate, Campaigns
+      email: jitlee@undi18.org 
+      linkedin: https://www.linkedin.com/in/jitlee/
+      picture: "../assets/JitLee.jpg"
     - name: Saleha Zulkifli
       title: Senior Associate, Admins & Operations
       email: noorsalehah@undi18.org
