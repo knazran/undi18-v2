@@ -3,8 +3,6 @@ import React from 'react';
 
 import { useStaticQuery, graphql } from 'gatsby';
 import Img from 'gatsby-image';
-import feloparlimen from "../images/Group 7 (2).png";
-import felo_parlimen2 from "../images/felo-ppl-image.png";
 
 const Programmes = ({ limit }) => {
   const data = useStaticQuery(graphql`

@@ -15,46 +15,41 @@ team:
       email: tharmapillai@undi18.org 
       linkedin: https://www.linkedin.com/in/tharmapillai/
       picture: "../assets/tharma.png"
-    - name: Roshinee Mookaiah
-      title: Program Manager
-      email: roshinee@undi18.org 
-      linkedin: https://www.linkedin.com/in/roshineemookaiah/
-      picture: "../assets/Roshinee.jpg"
     - name: Charlene See
       title: Senior Programme Lead
       email: charlene@undi18.org 
       linkedin: https://www.linkedin.com/in/charleneskm/
       picture: "../assets/Charlene.jpg"
+    - name: Diffan Sina
+      title: Program Coordinator
+      email: diffan@undi18.org
+      linkedin: https://www.linkedin.com/in/diffan-sina-a0b256220
+      picture: "../assets/diffan.jpg"
     - name: Alex Lai 
       title: Creative Lead
       email: alexlai@undi18.org 
       linkedin: https://www.linkedin.com/in/alexander-lai-2b438831/
       picture: "../assets/Alex.jpg"
-    - name: Wani Nur Imannina 
-      title: Senior Associate, Programmes
-      email: imannina@undi18.org
-      linkedin: https://www.linkedin.com/in/ninamohds
-      picture: "../assets/Nina.jpg"
-    - name: Anusha Rym 
-      title: Associate, Programmes
-      email: anusharym@undi18.org 
-      linkedin: https://www.linkedin.com/in/anusha-rym/
-      picture: "../assets/Anusha.jpg"
     - name: Soon Wei Xen 
       title: Associate, Campaigns
       email: soonweixen@undi18.org
       linkedin: https://www.linkedin.com/in/wxs-5269751ab/soonweixen@undi18.org
       picture: "../assets/Soon.jpg"
-    - name: Jit Lee
-      title: Associate, Campaigns
-      email: jitlee@undi18.org 
-      linkedin: https://www.linkedin.com/in/jitlee/
-      picture: "../assets/JitLee.jpg"
-    - name: Saleha Zulkifli
-      title: Senior Associate, Admins & Operations
-      email: noorsalehah@undi18.org
-      linkedin: https://www.linkedin.com/in/salehazulkifli/noorsalehah@undi18.org
-      picture: "../assets/Saleha.jpg"
+    - name: Cameron Tjoe
+      title: Program Associate
+      email: cameron@undi18.org
+      linkedin: https://www.linkedin.com/in/cameron-tjoe-a43b44216/
+      picture: "../assets/cam.JPG"
+    - name: Nisa Muzamir Shah
+      title:  Program Associate
+      email: khairunnisa@undi18.org
+      linkedin: https://www.linkedin.com/in/khairunnisashah/
+      picture: "../assets/nisa.JPG"
+    - name: Najwa Rafie
+      title: Admin & Operations Associate
+      email: najwa@undi.org
+      linkedin: https://www.linkedin.com/in/najwa-rafie-4a159a134/
+      picture: "../assets/najwa.JPG"
 ---
 
 ### Our Story
