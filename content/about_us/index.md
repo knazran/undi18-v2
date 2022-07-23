@@ -15,21 +15,11 @@ team:
       email: tharmapillai@undi18.org 
       linkedin: https://www.linkedin.com/in/tharmapillai/
       picture: "../assets/tharma.png"
-    - name: Charlene See
-      title: Senior Programme Lead
-      email: charlene@undi18.org 
-      linkedin: https://www.linkedin.com/in/charleneskm/
-      picture: "../assets/Charlene.jpg"
     - name: Diffan Sina
       title: Program Coordinator
       email: diffan@undi18.org
       linkedin: https://www.linkedin.com/in/diffan-sina-a0b256220
       picture: "../assets/diffan.jpg"
-    - name: Alex Lai 
-      title: Creative Lead
-      email: alexlai@undi18.org 
-      linkedin: https://www.linkedin.com/in/alexander-lai-2b438831/
-      picture: "../assets/Alex.jpg"
     - name: Soon Wei Xen 
       title: Associate, Campaigns
       email: soonweixen@undi18.org
