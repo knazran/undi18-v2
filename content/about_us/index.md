@@ -20,16 +20,6 @@ team:
       email: diffan@undi18.org
       linkedin: https://www.linkedin.com/in/diffan-sina-a0b256220
       picture: "../assets/diffan.jpg"n
-    - name: Cameron Tjoe
-      title: Program Associate
-      email: cameron@undi18.org
-      linkedin: https://www.linkedin.com/in/cameron-tjoe-a43b44216/
-      picture: "../assets/cam.JPG"
-    - name: Nisa Muzamir Shah
-      title:  Program Associate
-      email: khairunnisa@undi18.org
-      linkedin: https://www.linkedin.com/in/khairunnisashah/
-      picture: "../assets/nisa.JPG"
     - name: Najwa Rafie
       title: Admin & Operations Associate
       email: najwa@undi.org
