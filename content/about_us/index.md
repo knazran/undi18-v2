@@ -19,7 +19,7 @@ team:
       title: Program Coordinator
       email: diffan@undi18.org
       linkedin: https://www.linkedin.com/in/diffan-sina-a0b256220
-      picture: "../assets/diffan.jpg"n
+      picture: "../assets/diffan.jpg"
     - name: Najwa Rafie
       title: Admin & Operations Associate
       email: najwa@undi.org
