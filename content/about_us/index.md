@@ -19,12 +19,7 @@ team:
       title: Program Coordinator
       email: diffan@undi18.org
       linkedin: https://www.linkedin.com/in/diffan-sina-a0b256220
-      picture: "../assets/diffan.jpg"
-    - name: Soon Wei Xen 
-      title: Associate, Campaigns
-      email: soonweixen@undi18.org
-      linkedin: https://www.linkedin.com/in/wxs-5269751ab/soonweixen@undi18.org
-      picture: "../assets/Soon.jpg"
+      picture: "../assets/diffan.jpg"n
     - name: Cameron Tjoe
       title: Program Associate
       email: cameron@undi18.org
